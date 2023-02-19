@@ -1,0 +1,350 @@
+/* ========================================================= *
+ *                                                  	  				          *
+ *                   D G  S  T  O  R  E   :    M a i n    C o m p o n e n t		          *
+ *                                                        					          *
+ * ========================================================= */
+
+SILENT
+
+/* ------------------------------------ *
+ *  Setting default variables  *
+ * ------------------------------------ */
+
+ACTION_IF is_bg2ee BEGIN
+		OUTER_SPRINT pe_are "ar0702"
+		OUTER_SPRINT pe_sto "DGItems"
+END
+
+
+/* ---------------------------------------------------- *
+ *  Copy BAMs or convert them to EE  *
+ * ---------------------------------------------------- */
+
+ACTION_IF GAME_IS ~bg2ee~ BEGIN
+	INCLUDE ~%MOD_FOLDER%/lib/gw_convert_inventory_bam_to_ee.tpa~			// Loads function converting inventory BAMs to EE.
+	ACTION_BASH_FOR ~IRStore/bam/~ ~^.+\.bam$~ BEGIN
+		ACTION_TO_LOWER %BASH_FOR_FILE%
+		ACTION_TO_LOWER %BASH_FOR_RES%
+		ACTION_IF (~%file-exc%~ STRING_CONTAINS_REGEXP ~%BASH_FOR_RES%~ = 1) BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%BASH_FOR_FILE%~
+				LPF ~gw_convert_inventory_bam_to_ee~ END
+			BUT_ONLY
+		END ELSE BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%BASH_FOR_FILE%~
+		END
+	END
+END ELSE BEGIN
+	COPY ~IRStore/bam~ ~override~
+END
+
+
+/* ------------------------- *
+ *   Installing Items  *
+ * ------------------------- */
+
+
+
+COPY ~DGItems/items/AMULSSPD.ITM~	~override~
+  SAY NAME2 @20
+  SAY DESC @25
+
+COPY ~DGItems/items/BAG04B.ITM~		~override~
+  SAY NAME2 @30
+  SAY DESC @35
+
+COPY ~DGItems/store/BAG04b.STO~		~override~
+
+COPY ~DGItems/items/BAG04c.ITM~		~override~
+  SAY NAME2 @30
+  SAY DESC @35
+
+COPY ~DGItems/store/BAG04c.STO~		~override~
+
+COPY ~DGItems/items/BAG04d.ITM~		~override~
+  SAY NAME2 @30
+  SAY DESC @35
+
+COPY ~DGItems/store/BAG04d.STO~		~override~
+
+COPY ~DGItems/items/BAG04e.ITM~		~override~
+  SAY NAME2 @30
+  SAY DESC @35
+
+COPY ~DGItems/store/BAG04e.STO~		~override~
+
+COPY ~DGItems/items/BAG04f.ITM~		~override~
+  SAY NAME2 @30
+  SAY DESC @35
+
+COPY ~DGItems/store/BAG04f.STO~		~override~
+
+COPY ~DGItems/items//BELTFG.ITM~		~override~
+  SAY NAME2 @40
+  SAY DESC @45
+
+COPY ~DGItems/items/BOOTMOVE.ITM~	~override~
+  SAY NAME2 @50
+  SAY DESC @55
+
+COPY ~DGItems/items/BRACREGN.ITM~	~override~
+  SAY NAME2 @60
+  SAY DESC @65
+
+COPY ~DGItems/items/BULLACID.ITM~		~override~
+  SAY NAME2 @70
+  SAY DESC @75
+
+COPY ~DGItems/items/BULLFLAM.ITM~	~override~       
+  SAY NAME2 @80
+  SAY DESC @85
+
+COPY ~DGItems/items/BULLICE.ITM~		~override~        
+  SAY NAME2 @90
+  SAY DESC @95
+
+
+
+
+
+COPY ~DGItems/items/DARTACID.ITM~		~override~       
+  SAY NAME2 @130
+  SAY DESC @135
+
+COPY ~DGItems/items/DARTFLAM.ITM~	~override~       
+  SAY NAME2 @140 
+  SAY DESC @145
+
+COPY ~DGItems/items/DARTICE.ITM~		~override~        
+  SAY NAME2 @150
+  SAY DESC @155
+
+COPY ~DGItems/items/ELEMCLCK.ITM~	~override~       
+SAY NAME2 @160 
+  SAY DESC @165
+
+
+COPY ~DGItems/items/ELEMHELM.ITM~	~override~       
+  SAY NAME2 @170
+  SAY DESC @175
+
+COPY ~DGItems/items/ELEMPLAT.ITM~	~override~       
+  SAY NAME2 @180
+  SAY DESC @185
+
+COPY ~DGItems/items/ELEMSHLD.ITM~	~override~       
+  SAY NAME2 @190
+  SAY DESC @195
+
+
+
+
+COPY ~DGItems/items/RINGBARD.ITM~	~override~       
+  SAY NAME2 @220
+  SAY DESC @225
+
+COPY ~DGItems/items/RINGCLRC.ITM~		~override~       
+  SAY NAME2 @230
+  SAY DESC @235
+
+COPY ~DGItems/items/RINGDRUI.ITM~		~override~       
+  SAY NAME2 @240
+  SAY DESC @245
+
+COPY ~DGItems/items/RINGEA.ITM~		~override~         
+  SAY NAME2 @250
+  SAY DESC @255
+
+COPY ~DGItems/items/RINGFL.ITM~		~override~         
+  SAY NAME2 @260
+  SAY DESC @265
+
+COPY ~DGItems/items/RINGGA.ITM~		~override~         
+  SAY NAME2 @270
+  SAY DESC @275
+
+COPY ~DGItems/items/RINGNA.ITM~		~override~         
+  SAY NAME2 @280
+  SAY DESC @285
+
+COPY ~DGItems/items/RINGPAL.ITM~		~override~        
+  SAY NAME2 @290
+  SAY DESC @295
+
+COPY ~DGItems/items/RINGRANG.ITM~	~override~       
+  SAY NAME2 @300
+  SAY DESC @305
+
+COPY ~DGItems/items/RINGTHF.ITM~		~override~        
+  SAY NAME2 @310
+  SAY DESC @315
+
+COPY ~DGItems/items/SCIMAMNE.ITM~	~override~       
+  SAY NAME2 @320
+  SAY DESC @325
+
+
+/* ------------------------- *
+ *  Installing stores  *
+ * ------------------------- */
+
+COPY_EXISTING ~wmart2.sto~ ~override/wmart2.sto~  // adds all the items to Deidre shop
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~bag04b~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~bag04c~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~bag04d~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~bag04e~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~bag04f~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~book03~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~book04~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~book05~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~book06~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~book07~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~book08~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~clck15~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~clck16~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~clck17~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ringga~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ringna~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ringea~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ringbard~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ringclrc~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ringdrui~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ringpal~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ringrang~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ringfl~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ringthf~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ring42~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~bullacid~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~bullflam~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~bullice~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~dartacid~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~dartflam~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~dartice~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~elemplat~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~elemhelm~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~elemshld~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~elemclck~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~amulsspd~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~bootmove~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~bracregn~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~beltfg~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~scimamne~ position=~LAST~ flags=~identified~
+    END

@@ -1,0 +1,44 @@
+MOD COLLECTION D’OBJETS PERSONNALISÉS POUR BALDUR'S GATE II ENHANCED EDITION -
+PAR DANIEL GOODRICH - ADAPTÉ PAR PROF ERRATA
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Voici un mod qui vous fournira contre menue monnaie des objets, des munitions, des armes et des armures dans vos parties de BG2EE, dont entre autres un set d’armures des plus efficaces et un puissant cimeterre fort utile pour les combattants.
+
+
+Installation :
+- BG2EE dans sa dernière version 2.6.6.0
+
+Compatibilité :
+Ce mod devrait être compatible avec la plupart des mods WeiDU existants.
+
+Le Mod :
+Ça faisait depuis longtemps que j’installais toujours dans mes parties de BG2ToB l’ancien mod SPItems - disponible sur le site Sorcerer’s Place - qui est le regroupement sous format WeiDU de 4 anciens mods, dont 2 d’objets et 2 de sorts. Écartant les mods fournissant les nouveaux sorts (plutôt inutiles à mon avis), et de surcroît le mod Creslyn Item Pack ayant déjà été traduit en français dans le mod SPStuff (disponible sur le site Gibberlings 3), j’ai entrepris de traduire en français l’autre mod d’objets conçu il y a longtemps de cela (2002) par Daniel Goodrich. Mon travail ne s’est pas limité à une simple traduction en bonne et due forme mais aussi à quelques remaniements ici et là, et j’espère que le résultat final (qui m’a amené à retirer la version russe) vous plaira en conséquence; parmi les objets, par exemple, vous pourrez vous procurer une étonnante paire de bottes qui vous sauvera la mise plus d’une fois…
+
+FAQ :
+Où peut-on se procurer ces objets ?
+ Sur la Promenade de Waukyne, dans le Marché des Aventuriers, chez Deidre (AR0702).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Versions :
+- Custom Items : version initiale regroupant les objets créés par D. Goodrich - 2002
+- SPItems  : version intégrant outre les objets créés par D.Goodrich ceux de Creslyn, ainsi que les les packs de sorts de Davoran & Shadow Daemon - WeiDU 147 - 2004
+- SPItems_V11 : version rajoutant la traduction russe par Fess - WeiDU 218 - 2010
+- DG Items_V2 : version ne comprenant que les objets remaniés et actualisés créés par Daniel Goodrich, avec ajout de la version française par Prof Errata.- WeiDU 246 - Septembre 2019
+- DG Items_V3 : version compatible avec BG2EE 2.6.6.0 et sous format WeiDU 249 - Décembre 2022
+- DG Items_V4 : version remaniée - Février 2023
+- DG Items_V5 : version pour BG2EE seulement - Février 2023
+- DG Items_V6 : BAMs refaits pour plusieurs objets - Février 2023
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Contact : 
+on peut me trouver sur :
+La Couronne de Cuivre - www.baldursgateworld.fr/lacouronne/
+sous le pseudonyme de Prof Errata.
+La Couronne de Cuivre est un excellent site francophone sur les JDR vidéos - et autres - que je recommande à tous.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+NB : vous avez toute latitude pour étudier, copier, distribuer ou même modifier ce mod sans me demander la permission, du moment qu’il n’y a aucune exploitation commerciale effectuée par la suite.

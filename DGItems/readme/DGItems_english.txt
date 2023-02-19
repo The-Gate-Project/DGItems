@@ -1,0 +1,44 @@
+CUSTOMIZED ITEMS COLLECTION MOD FOR BALDUR'S GATE II ENHANCED EDITION -
+ BY DANIEL GOODRICH - ADAPTED BY PROF ERRATA
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Here is a mod which will give you in exchange for some pennies items, ammunition, weapons and armors in your BG2EE games, including a very effective armor set and a powerful scimitar very useful for fighters.
+
+
+Installation:
+- BG2EE with the last version 2.6.6.0
+
+Compatibility:
+This mod should be compatible with most of the existing WeiDU mods.
+
+The Mod:
+It has been a long time I always installed in my BG2ToB games the old mod SPItems - available in the Sorcerer's Place website - which is the reunification under WeiDU format of 4 old mods, of which 2 about items and 2 about spells. Discarding the mods providing the new spells (rather useless in my opinion), and what is more the Creslyn Item Pack having been already translated in French in the SPStuff mod (available on the Gibberlings 3 website), I've undertaken to translate in French the other items mod designed a long time ago (2002) by Daniel Goodrich. My work has not been limited to a simple translation in due form but too some overhauls here and there, and I hope that the final result (which has brought me to withdraw the Russian version) will please you accordingly; among the items, for example, you may require an amazing pair of boots which will save the day more than once…
+
+FAQ:
+Where can we get these items?
+ On the Waukeen Promenade, in the Adventurers' Mart, at Deidre's (AR0702).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Versions:
+- Customs Items: initial version regrouping the items created by D. Goodrich - 2002
+- SPItems:version integrating in addition to the items created by D. Goodrich the Creslyn ones, as well as the Davoran & Shadow Daemon spell packs - WeiDU 147 - 2004
+- SPItems_V11: version adding the Russian translation by Fess - WeiDU 218 - 2010
+- DG Items_V2: version containing only the overhauled and updated items created by Daniel Goodrich, with the addition of the French version by Prof Errata - WeiDU 246 - September 2019
+- DG Items_V3: version compatible with BG2EE 2.6.6.0 and in WeiDU 249 format - December 2022
+- DG Items_V4 : revised version - February 2023
+- DG Items_V5 : version for BG2EE only - February 2023
+- DG Items_V6 : revised BAMs for several items - February 2023
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Contact:
+You can find me at :
+La Couronne de Cuivre - www.baldursgateworld.fr/lacouronne/
+under the alias of Prof Errata.
+La Couronne de Cuivre is an excellent francophone site about RPG videogames - and other things - that I recommend to all.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+NB: You have full scope to study, copy, distribute or even modify this mod without asking my permission, as long as there is no commercial exploitation made subsequently.

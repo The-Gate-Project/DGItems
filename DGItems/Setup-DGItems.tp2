@@ -1,0 +1,46 @@
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// 		 Mod DGItems for BG2ToB by Daniel Goodrich		 	   //
+	//		*Adapted and updated for BG2EE by Prof Errata*			   //
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+BACKUP	~DGItems/backup~
+AUTHOR	~archmage183@hotmail.com- Adapted and updated by Prof Errata~
+
+README ~DGItems/readme/DGItems_%LANGUAGE%.txt~
+
+ALWAYS
+	INCLUDE ~DGItems/lib/always.tph~
+END	// of ALWAYS block
+
+
+AUTO_TRA	~DGItems/lang/%s~
+
+
+LANGUAGE 	~English~
+         		~english~
+         		~DGItems/lang/english/dialog.tra~
+		~DGItems/lang/english/setup.tra~
+LANGUAGE	~Francais (par Prof Errata)~ 
+		~french~
+		~DGItems/lang/French/dialog.tra~
+		~DGItems/lang/French/setup.tra~
+
+/* ========================== *
+ *   DGItems : Main component            *
+ * ========================== */
+	
+BEGIN @0
+DESIGNATED 0 LABEL ~DGItems_main~
+REQUIRE_PREDICATE GAME_IS ~bg2ee~ @1  // ~This mod requires BG2EE to be installed.~
+
+	INCLUDE ~DGItems/lib/main_component.tpa~
+
+
+/*==== DGItems Store ====*/
+
+
+ACTION_IF GAME_IS ~BG2EE~ THEN BEGIN
+	INCLUDE ~DGItems/lib/gw_functions.tpa~
+END
