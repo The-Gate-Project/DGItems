@@ -4,16 +4,16 @@
 @10	= ~Articles de Deidre~
 
 
-@20	= ~Amulette de Vitesse dâ€™incantation~
-@25	= ~PortÃ©e couramment par des lanceurs de sorts durant le Temps des Troubles, cette amulette diminue les temps dâ€™incantation et augmente sensiblement la RÃ©sistance Magique. Les guerriers et les voleurs monoclassÃ©s ne peuvent pas en consÃ©quence la porter.
+@20	= ~Amulette de Vitesse d'incantation~
+@25	= ~Portée couramment par des lanceurs de sorts durant le Temps des Troubles, cette amulette diminue les temps d'incantation et augmente sensiblement la Résistance Magique. Les guerriers et les voleurs monoclassés ne peuvent pas en conséquence la porter.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
- Bonus de Classe dâ€™Armure : +1
- Vitesse dâ€™incantation : -5
- RÃ©sistance Magique: +20%
- +50% du total de RÃ©sistance Ã  la magie
+Capacités spéciales :
+ Bonus de Classe d'Armure : +1
+ Vitesse d'incantation : -5
+ Résistance Magique: +20%
+ +50% du total de Résistance à la magie
 Poids : 1
 
 Inutilisable par :
@@ -23,40 +23,40 @@ Inutilisable par :
 
 
 @30	= ~Sac de contenance~
-@35	= ~Comme d'autres sacs magiques, celui-ci ressemble Ã  un sac de tissu classique, d'environ 60 cm sur 1,20 m. Ce sac sans fond ouvre sur un espace non dimensionnel, et l'intÃ©rieur est plus grand que l'extÃ©rieur. Le poids du sac reste inchangÃ©, quels que soient les objets qui y sont dÃ©posÃ©s.~
+@35	= ~Comme d'autres sacs magiques, celui-ci ressemble à un sac de tissu classique, d'environ 60 cm sur 1,20 m. Ce sac sans fond ouvre sur un espace non dimensionnel, et l'intérieur est plus grand que l'extérieur. Le poids du sac reste inchangé, quels que soient les objets qui y sont déposés.~
 
 
-@40	= ~Ceinturon de Force de gÃ©ant du feu~
-@45	= ~Cette ceinture donne Ã  son porteur la Force de GÃ©ant du Feu.
+@40	= ~Ceinturon de Force de géant du feu~
+@45	= ~Cette ceinture donne à son porteur la Force de Géant du Feu.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ© spÃ©ciale :
- Force : mise Ã  25
+Capacité spéciale :
+ Force : mise à 25
 
 Inutilisable par :
  Tueur de Magiciens~
 
 
 @50	= ~Bottes de mouvement~
-@55	= ~Ces bottes furent magistralement enchantÃ©es par un talentueux mage/assassin connu seulement sous le nom du Boucher en raison du fait que ses victimes furent toutes trouvÃ©es taillÃ©es en des dizaines de piÃ¨ces. AprÃ¨s une tentative dâ€™assassinat manquÃ©e dÃ»e Ã  la combinaison des sorts dâ€™Immobilisation, de Labyrinthe et de Lenteur, il plaÃ§a des sorts dâ€™Action Libre, de LibertÃ© et de HÃ¢te amÃ©liorÃ©e sur toutes ses bottes. PortÃ©es partout, elles le protÃ©gÃ¨rent jusquâ€™Ã  que ses pieds furent arrachÃ©s, et le Boucher fut dÃ©finitivement EmprisonnÃ©. Par la suite ses tueurs anonymes sâ€™emparÃ¨rent de ses bottes.
+@55	= ~Ces bottes furent magistralement enchantées par un talentueux mage/assassin connu seulement sous le nom du Boucher en raison du fait que ses victimes furent toutes trouvées taillées en des dizaines de pièces. Après une tentative d'assassinat manquée dûe à la combinaison des sorts d'Immobilisation, de Labyrinthe et de Lenteur, il plaça des sorts d'Action Libre, de Liberté et de Hâte améliorée sur toutes ses bottes. Portées partout, elles le protégèrent jusqu'à que ses pieds furent arrachés, et le Boucher fut définitivement Emprisonné. Par la suite ses tueurs anonymes s'emparèrent de ses bottes.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
- Des sorts dâ€™Action Libre, de LibertÃ© ainsi que de HÃ¢te amÃ©liorÃ©e ont Ã©tÃ© tressÃ©es dans ces bottes.
+Capacités spéciales :
+ Des sorts d'Action Libre, de Liberté ainsi que de Hâte améliorée ont été tressées dans ces bottes.
 
 Inutilisable par :
  Tueur de Magiciens~
 
 
-@60	= ~Gants de rÃ©gÃ©nÃ©ration~
-@65	= ~Ces gants enchantÃ©s permettent Ã  leur porteur de rÃ©gÃ©nÃ©rer 1 Point de vie par seconde. Ces gants furent couramment portÃ©s par la royautÃ© et leurs gardes durant le Temps des Troubles.
+@60	= ~Gants de régénération~
+@65	= ~Ces gants enchantés permettent à leur porteur de régénérer 1 Point de vie par seconde. Ces gants furent couramment portés par la royauté et leurs gardes durant le Temps des Troubles.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
- le porteur rÃ©gÃ©nÃ¨re 1 Point de vie par seconde
+Capacités spéciales :
+ le porteur régénère 1 Point de vie par seconde
  Jets de sauvegarde : Bonus de +2
 Poids : 1
 
@@ -65,60 +65,57 @@ Inutilisable par :
 
 
 @70	= ~Bille acide~
-@75	= ~La bille acide est magiquement enchantÃ©e de faÃ§on Ã  ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence Ã  ronger la blessure, lâ€™agrandissant et lâ€™approfondissant sÃ©vÃ¨rement.
+@75	= ~La bille acide est magiquement enchantée de façon à ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence à ronger la blessure, l'agrandissant et l'approfondissant sévèrement.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
- DÃ©gÃ¢ts : 1D4 +3, +3 dâ€™acide
+Capacités spéciales :
+ Dégâts : 1D4 +3, +3 d'acide
 THAC0 : +3
-Type de dÃ©gÃ¢ts : Projectile (Perforant)
+Type de dégâts : Projectile (Perforant)
 Poids : 0
 Lanceur : Fronde~
 
 
-@80	= ~Bille enflammÃ©e~
-@85	= ~La Bille enflammÃ©e est une une pierre magique qui brÃ»le quand elle est lancÃ©e. Lâ€™effet est semblable Ã  celui dâ€™une bille recouverte dâ€™huile et dont on met le feu.
+@80	= ~Bille enflammée~
+@85	= ~La Bille enflammée est une une pierre magique qui brûle quand elle est lancée. L'effet est semblable à celui d'une bille recouverte d'huile et dont on met le feu.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
- DÃ©gÃ¢ts : 1D4 +3, +3 de feu
+Capacités spéciales :
+ Dégâts : 1D4 +3, +3 de feu
 THAC0 : +3
-Type de dÃ©gÃ¢ts : Projectile (Perforant) 
+Type de dégâts : Projectile (Perforant) 
 Poids : 0
 Lanceur : Fronde~
 
 
 @90	= ~Bille de glace~
-@95	= ~La Bille de glace est une pierre magique qui devient un projectile glacÃ© quand elle est lancÃ©e. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brÃ»lant et lâ€™engourdissant jusquâ€™au trÃ©fonds dâ€™elle-mÃªme.
+@95	= ~La Bille de glace est une pierre magique qui devient un projectile glacé quand elle est lancée. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brûlant et l'engourdissant jusqu'au tréfonds d'elle-même.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
- DÃ©gÃ¢ts : 1D4 +3, +3 de glace
+Capacités spéciales :
+ Dégâts : 1D4 +3, +3 de glace
 THAC0 : +3
-Type de dÃ©gÃ¢ts : Projectile (Perforant)
+Type de dégâts : Projectile (Perforant)
 Poids : 0
 Lanceur : Fronde~
 
 
+@130	= ~Fléchette acide~
+@135	= ~La Fléchette acide est magiquement enchantée de façon à ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence à ronger la blessure, l'agrandissant et l'approfondissant sévèrement.
 
+PARAMÈTRES :
 
-
-@130	= ~FlÃ©chette acide~
-@135	= ~La FlÃ©chette acide est magiquement enchantÃ©e de faÃ§on Ã  ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence Ã  ronger la blessure, lâ€™agrandissant et lâ€™approfondissant sÃ©vÃ¨rement.
-
-PARAMÃˆTRES :
-
-CapacitÃ©s spÃ©ciales :
- DÃ©gÃ¢ts : 1D3 +2, +2 dâ€™acide
+Capacités spéciales :
+ Dégâts : 1D3 +2, +2 d'acide
 THAC0 : +2
-Type de dÃ©gÃ¢ts : Projectile (Perforant)
+Type de dégâts : Projectile (Perforant)
 Poids : 0
 Facteur de Vitesse : 0 
-Type d'arme : Ã  1 main
-Type de CompÃ©tence : FlÃ©chette
+Type d'arme : à 1 main
+Type de Compétence : Fléchette
 
 Inutilisable par :
  Clerc
@@ -126,19 +123,19 @@ Inutilisable par :
  Chevalier~
 
 
-@140	= ~FlÃ©chette enflammÃ©e~
-@145	= ~La FlÃ©chette enflammÃ©e est une une flÃ©chette magique qui brÃ»le quand elle est lancÃ©e. Lâ€™effet est semblable Ã  celui dâ€™une flÃ©chette recouverte dâ€™huile et dont on met le feu.
+@140	= ~Fléchette enflammée~
+@145	= ~La Fléchette enflammée est une une fléchette magique qui brûle quand elle est lancée. L'effet est semblable à celui d'une fléchette recouverte d'huile et dont on met le feu.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
- DÃ©gÃ¢ts : 1D3 +2, +2 de feu
+Capacités spéciales :
+ Dégâts : 1D3 +2, +2 de feu
 THAC0 : +2
-Type de dÃ©gÃ¢ts : Projectile (Perforant)
+Type de dégâts : Projectile (Perforant)
 Poids : 0
 Facteur de Vitesse : 0 
-Type d'arme : Ã  1 main
-Type de CompÃ©tence : FlÃ©chette
+Type d'arme : à 1 main
+Type de Compétence : Fléchette
 
 Inutilisable par :
  Clerc
@@ -146,19 +143,19 @@ Inutilisable par :
  Chevalier~
 
 
-@150	= ~FlÃ©chette de glace~
-@155	= ~La FlÃ©chette de glace est une flÃ©chette magique qui devient un projectile glacÃ© quand elle est lancÃ©e. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brÃ»lant et lâ€™engourdissant jusquâ€™au trÃ©fonds dâ€™elle-mÃªme.
+@150	= ~Fléchette de glace~
+@155	= ~La Fléchette de glace est une fléchette magique qui devient un projectile glacé quand elle est lancée. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brûlant et l'engourdissant jusqu'au tréfonds d'elle-même.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
- DÃ©gÃ¢ts : 1D3 +2, +2 de glace
+Capacités spéciales :
+ Dégâts : 1D3 +2, +2 de glace
 THAC0 : +2
-Type de dÃ©gÃ¢ts : Projectile (Perforant)
+Type de dégâts : Projectile (Perforant)
 Poids : 0
 Facteur de Vitesse : 0 
-Type d'arme : Ã  1 main
-Type de CompÃ©tence : FlÃ©chette
+Type d'arme : à 1 main
+Type de Compétence : Fléchette
 
 Inutilisable par :
  Clerc
@@ -166,51 +163,51 @@ Inutilisable par :
  Chevalier~
 
 
-@160	= ~Cape dâ€™adamantite Ã©lÃ©mentale~
-@165	= ~Couramment portÃ©e par la royautÃ© et leurs gardes durant le Temps des Troubles, cette cape durable augmente les rÃ©sistances de feu, de froid, dâ€™acide et dâ€™Ã©lectricitÃ© de son porteur. De plus, un sort de Non-dÃ©tection y a Ã©tÃ© placÃ© dessus.
+@160	= ~Cape d'adamantite élémentale~
+@165	= ~Couramment portée par la royauté et leurs gardes durant le Temps des Troubles, cette cape durable augmente les résistances de feu, de froid, d'acide et d'électricité de son porteur. De plus, un sort de Non-détection y a été placé dessus.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
- Bonus de Classe dâ€™armure : +5
- RÃ©sistances au feu, au froid, Ã  lâ€™acide, Ã  lâ€™Ã©lectricitÃ©, et aux dÃ©gÃ¢ts contondants, perforants, tranchants et de projectiles : +20%
- Lance Non-DÃ©tection au porteur
+Capacités spéciales :
+ Bonus de Classe d'armure : +5
+ Résistances au feu, au froid, à l'acide, à l'électricité, et aux dégâts contondants, perforants, tranchants et de projectiles : +20%
+ Lance Non-Détection au porteur
 Poids : 1
 
 Inutilisable par :
  Tueur de magiciens~
 
 
-@170	= ~Heaume dâ€™adamantite Ã©lÃ©mentale~
-@175	= ~Ce heaume dâ€™adamantite fut forgÃ© de la mÃªme maniÃ¨re que lâ€™armure de plates. Couramment portÃ© par la royautÃ© et leurs gardes, ce heaume donne une protection contre les coups critiques, et Ã©vite aussi de devenir aveugle, sourd et muet. De plus, il protÃ¨ge le porteur contre toutes les formes de contrÃ´les mentaux, immunise contre les sorts dâ€™Horreur, et permet Ã©galement de lancer des sorts sans incanter et de dÃ©tecter les piÃ¨ges.
+@170	= ~Heaume d'adamantite élémentale~
+@175	= ~Ce heaume d'adamantite fut forgé de la même manière que l'armure de plates. Couramment porté par la royauté et leurs gardes, ce heaume donne une protection contre les coups critiques, et évite aussi de devenir aveugle, sourd et muet. De plus, il protège le porteur contre toutes les formes de contrôles mentaux, immunise contre les sorts d'Horreur, et permet également de lancer des sorts sans incanter et de détecter les pièges.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
- Bonus de Classe dâ€™armure : +3
- RÃ©sistances au feu, au froid, Ã  lâ€™acide, Ã  lâ€™Ã©lectricitÃ©, et aux dÃ©gÃ¢ts contondants, perforants, tranchants et de projectiles : +20%
- ProtÃ¨ge des sorts de Charme
+Capacités spéciales :
+ Bonus de Classe d'armure : +3
+ Résistances au feu, au froid, à l'acide, à l'électricité, et aux dégâts contondants, perforants, tranchants et de projectiles : +20%
+ Protège des sorts de Charme
 Poids : 10
 
 Inutilisable par :
  Mage
  Barde
- MÃ©tamorphe
+ Métamorphe
  Kensai
  Voleur~
 
 
-@180	= ~Armure dâ€™adamantite Ã©lÃ©mentale~
-@185	= ~Cette armure de plates complÃ¨te lÃ©gÃ¨re fut couramment portÃ©e par la royautÃ© et leurs gardes durant le Temps des Troubles. ForgÃ©e Ã  partir dâ€™adamantite exposÃ©e au feu, au froid, Ã  lâ€™acide et Ã  la foudre des Plans Ã‰lÃ©mentaux, non seulement cette armure protÃ¨ge desdits Ã©lÃ©ments de +20 mais est aussi extrÃªmement durable et lÃ©gÃ¨re.
+@180	= ~Armure d'adamantite élémentale~
+@185	= ~Cette armure de plates complète légère fut couramment portée par la royauté et leurs gardes durant le Temps des Troubles. Forgée à partir d'adamantite exposée au feu, au froid, à l'acide et à la foudre des Plans Élémentaux, non seulement cette armure protège desdits éléments de +20 mais est aussi extrêmement durable et légère.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
- Classe dâ€™Armure : -1
+Capacités spéciales :
+ Classe d'Armure : -1
  +2 contre les armes contondantes
  +2 contre les armes perforantes
  +2 contre les armes tranchantes
- RÃ©sistances au feu, au froid, Ã  lâ€™acide, Ã  lâ€™Ã©lectricitÃ©, et aux dÃ©gÃ¢ts contondants, perforants, tranchants et de projectiles : +20%
+ Résistances au feu, au froid, à l'acide, à l'électricité, et aux dégâts contondants, perforants, tranchants et de projectiles : +20%
 Poids : 10
 
 Inutilisable par :
@@ -223,14 +220,14 @@ Inutilisable par :
  Voleur~
 
 
-@190	= ~Ã‰cu dâ€™adamantite Ã©lÃ©mentale~
-@195	= ~Couramment portÃ© par la royautÃ© et leurs gardes pendant le Temps des Troubles, cet Ã©cu durable augmente la rÃ©sistance au feu, au froid, Ã  lâ€™acide et Ã  lâ€™Ã©lectricitÃ© de son porteur.
+@190	= ~Écu d'adamantite élémentale~
+@195	= ~Couramment porté par la royauté et leurs gardes pendant le Temps des Troubles, cet écu durable augmente la résistance au feu, au froid, à l'acide et à l'électricité de son porteur.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s spÃ©ciales :
+Capacités spéciales :
  Bonus de Classe d'Armure : +5
- RÃ©sistances au feu, au froid, Ã  lâ€™acide, Ã  lâ€™Ã©lectricitÃ©, et aux dÃ©gÃ¢ts contondants, perforants, tranchants et de projectiles : +20%
+ Résistances au feu, au froid, à l'acide, à l'électricité, et aux dégâts contondants, perforants, tranchants et de projectiles : +20%
 Poids : 3
 
 Inutilisable par :
@@ -241,16 +238,12 @@ Inutilisable par :
  Druide~
 
 
+@220	= ~Anneau d'harmonie de barde~
+@225	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un barde. Un seul anneau peut être porté à la fois.
 
+PARAMÈTRES :
 
-
-
-@220	= ~Anneau dâ€™harmonie de barde~
-@225	= ~Cet anneau augmente la capacitÃ© de mÃ©morisation de sorts dâ€™un barde. Un seul anneau peut Ãªtre portÃ© Ã  la fois.
-
-PARAMÃˆTRES :
-
-CapacitÃ© d'Ã©quipement :
+Capacité d'équipement :
  Bonus de sorts :
  +1 Sort Niveau 1
  +1 Sort Niveau 2
@@ -263,12 +256,12 @@ Utilisable seulement par :
  Barde~
 
 
-@230	= ~Anneau de haute compÃ©tence clÃ©ricale~
-@235	= ~Cet anneau augmente la capacitÃ© de mÃ©morisation de sorts dâ€™un clerc. Un seul anneau peut Ãªtre portÃ© Ã  la fois.
+@230	= ~Anneau de haute compétence cléricale~
+@235	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un clerc. Un seul anneau peut être porté à la fois.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ© d'Ã©quipement :
+Capacité d'équipement :
  Bonus de sorts :
 +1 Sort Niveau 5
 +3 Sorts Niveau 6
@@ -278,12 +271,12 @@ Utilisable seulement par :
  Clerc~
 
 
-@240	= ~Anneau druidique de lâ€™Ã©quilibre~
-@245	= ~Cet anneau augmente la capacitÃ© de mÃ©morisation de sorts dâ€™un druide. Un seul anneau peut Ãªtre portÃ© Ã  la fois.
+@240	= ~Anneau druidique de l'équilibre~
+@245	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un druide. Un seul anneau peut être porté à la fois.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ© d'Ã©quipement :
+Capacité d'équipement :
  Bonus de Sorts :
 +1 Sort Niveau 1
 +1 Sort Niveau 2
@@ -298,12 +291,12 @@ Utilisable seulement par :
 
 
 @250	= ~Anneau du Mauvais archimage~
-@255	= ~Ce puissant anneau magique permet Ã  son porteur de mÃ©moriser plus de sorts que la normale, et en mÃªme temps dâ€™augmenter les jets de sauvegarde et la rÃ©sistance Ã  la magie. En raison de la nature de son enchantement, il ne peut Ãªtre portÃ© que par des mages dâ€™alignement mauvais.
+@255	= ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement mauvais.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s d'Ã©quipement :
- RÃ©sistance magique : +10%
+Capacités d'équipement :
+ Résistance magique : +10%
  Jets de sauvegarde : Bonus de +1
  Sorts : donne 3 sorts de niveau 1 de plus, 3 sorts de niveau 2 de plus, 3 sorts de niveau 3 de plus, 3 sorts de niveau 4 de plus, 3 sorts de niveau 5 de plus, 2 sorts de niveau 6 de plus, 3 sorts de niveau 7 de plus, 3 sorts de niveau 8 de plus, et 4 sorts de niveau 9 de plus
 
@@ -312,25 +305,25 @@ Utilisable seulement par :
  Mage~
 
 
-@260	= ~Anneau dâ€™anti-pÃ©trification~
-@265	= ~Cet anneau protÃ¨ge son porteur de la pÃ©trification.
+@260	= ~Anneau d'anti-pétrification~
+@265	= ~Cet anneau protège son porteur de la pétrification.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ© d'Ã©quipement :
- ImmunitÃ© Ã  la pÃ©trification
+Capacité d'équipement :
+ Immunité à la pétrification
 
 Inutilisable par :
  Tueur de Magiciens~
 
 
 @270	= ~Anneau du Bon archimage~
-@275	= ~Ce puissant anneau magique permet Ã  son porteur de mÃ©moriser plus de sorts que la normale, et en mÃªme temps dâ€™augmenter les jets de sauvegarde et la rÃ©sistance Ã  la magie. En raison de la nature de son enchantement, il ne peut Ãªtre portÃ© que par des mages dâ€™alignement bon.
+@275	= ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement bon.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s d'Ã©quipement :
- RÃ©sistance magique : +10%
+Capacités d'équipement :
+ Résistance magique : +10%
  Jets de sauvegarde : Bonus de +1
  Sorts : donne 3 sorts de niveau 1 de plus, 3 sorts de niveau 2 de plus, 3 sorts de niveau 3 de plus, 3 sorts de niveau 4 de plus, 3 sorts de niveau 5 de plus, 2 sorts de niveau 6 de plus, 3 sorts de niveau 7 de plus, 3 sorts de niveau 8 de plus, et 4 sorts de niveau 9 de plus
 
@@ -339,13 +332,13 @@ Utilisable seulement par :
  Mage~
 
 
-@280	= ~Anneau de lâ€™archimage Neutre~
-@285	= ~Ce puissant anneau magique permet Ã  son porteur de mÃ©moriser plus de sorts que la normale, et en mÃªme temps dâ€™augmenter les jets de sauvegarde et la rÃ©sistance Ã  la magie. En raison de la nature de son enchantement, il ne peut Ãªtre portÃ© que par des mages dâ€™alignement neutre.
+@280	= ~Anneau de l'archimage Neutre~
+@285	= ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement neutre.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s d'Ã©quipement :
- RÃ©sistance magique : +10%
+Capacités d'équipement :
+ Résistance magique : +10%
  Jets de sauvegarde : Bonus de +1
  Sorts : donne 3 sorts de niveau 1 de plus, 3 sorts de niveau 2 de plus, 3 sorts de niveau 3 de plus, 3 sorts de niveau 4 de plus, 3 sorts de niveau 5 de plus, 2 sorts de niveau 6 de plus, 3 sorts de niveau 7 de plus, 3 sorts de niveau 8 de plus, et 4 sorts de niveau 9 de plus
 
@@ -354,12 +347,12 @@ Utilisable seulement par :
  Mage~
 
 
-@290	= ~Anneau de saintetÃ© de paladin~
-@295	= ~Cet anneau augmente la capacitÃ© de mÃ©morisation de sorts dâ€™un paladin. Un seul anneau peut Ãªtre portÃ© Ã  la fois.
+@290	= ~Anneau de sainteté de paladin~
+@295	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un paladin. Un seul anneau peut être porté à la fois.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ© d'Ã©quipement :
+Capacité d'équipement :
  +3 Sorts Niveau 1
  +3 Sorts Niveau 2
  +3 Sorts Niveau 3
@@ -369,49 +362,49 @@ Utilisable seulement par :
  Paladin~
 
 
-@300	= ~Anneau de compÃ©tence de rÃ´deur~
-@305	= ~Cet anneau augmente la capacitÃ© de mÃ©morisation de sorts dâ€™un rÃ´deur. Un seul anneau peut Ãªtre portÃ© Ã  la fois.
+@300	= ~Anneau de compétence de rôdeur~
+@305	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un rôdeur. Un seul anneau peut être porté à la fois.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ© d'Ã©quipement :
+Capacité d'équipement :
  +3 Sorts Niveau 1
  +3 Sorts Niveau 2
  +3 Sorts Niveau 3
 
 Utilisable seulement par :
- RÃ´deur~
+ Rôdeur~
 
 
-@310	= ~Anneau de compÃ©tence de voleur~
-@315	= ~On en sait peu sur les origines de cet anneau enchantÃ©. Cependant, nâ€™importe quel voleur qui le met reÃ§oit un bonus substantiel Ã  ses compÃ©tences de Vol Ã  la tire, de DÃ©tection des piÃ¨ges, de Crochetage et de de DÃ©tection des illusions. Il ne peut Ãªtre portÃ© seulement que par des voleurs. Un seul anneau peut Ãªtre portÃ© Ã  la fois.
+@310	= ~Anneau de compétence de voleur~
+@315	= ~On en sait peu sur les origines de cet anneau enchanté. Cependant, n'importe quel voleur qui le met reçoit un bonus substantiel à ses compétences de Vol à la tire, de Détection des pièges, de Crochetage et de de Détection des illusions. Il ne peut être porté seulement que par des voleurs. Un seul anneau peut être porté à la fois.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ©s d'Ã©quipement :
- Vol Ã  la tire : +50%
+Capacités d'équipement :
+ Vol à la tire : +50%
  Crochetage :+ 50%
- DÃ©tection des piÃ¨ges : +50%
+ Détection des pièges : +50%
  Detection des illusions : +50%
 
 Utilisable seulement par :
  Voleur~
 
 
-@320	= ~Cimeterre dâ€™AmnÃ©sie~
-@325	= ~Ces cimeterres furent crÃ©Ã©s par des forgerons talentueux Ã  partir dâ€™adamantite, et ensuite enchantÃ©s par de puissants mages afin quâ€™ils puissent causer aux lanceurs de sorts ennemis lâ€™oubli dâ€™un sort. Ce cimeterre fut couramment utilisÃ© par les gardes de la royautÃ© durant le Temps des Troubles. De plus, quand il est Ã©quipÃ©, il donne Ã  son porteur le niveau de Grande MaÃ®trise dans le type dâ€™arme Cimeterre/Wakizashi/Ninja-To.
+@320	= ~Cimeterre d'Amnésie~
+@325	= ~Ces cimeterres furent créés par des forgerons talentueux à partir d'adamantite, et ensuite enchantés par de puissants mages afin qu'ils puissent causer aux lanceurs de sorts ennemis l'oubli d'un sort. Ce cimeterre fut couramment utilisé par les gardes de la royauté durant le Temps des Troubles. De plus, quand il est équipé, il donne à son porteur le niveau de Grande Maîtrise dans le type d'arme Cimeterre/Wakizashi/Ninja-To.
 
-PARAMÃˆTRES :
+PARAMÈTRES :
 
-CapacitÃ© de combat :
- le lanceur de sorts visÃ© perd un sort mÃ©morisÃ©
+Capacité de combat :
+ le lanceur de sorts visé perd un sort mémorisé
 THAC0 : +5
-DÃ©gÃ¢ts : 2D8+5
-Type de dÃ©gÃ¢ts : Tranchant
+Dégâts : 2D8+5
+Type de dégâts : Tranchant
 Poids : 1
 Facteur de Vitesse : 5
-Type de CompÃ©tence : Cimeterre/Wakizashi/Ninja-To
-Type: Arme Ã  une main
+Type de Compétence : Cimeterre/Wakizashi/Ninja-To
+Type: Arme à une main
 Requis : 5 en Force
 
 Inutilisable par :

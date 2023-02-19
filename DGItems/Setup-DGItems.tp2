@@ -1,7 +1,7 @@
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// 		 Mod DGItems for BG2ToB by Daniel Goodrich		 	   //
-	//		*Adapted and updated for BG2EE by Prof Errata*			   //
+	//		*Adapted and updated for EE by Prof Errata*			   //
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -10,22 +10,48 @@ AUTHOR	~archmage183@hotmail.com- Adapted and updated by Prof Errata~
 
 README ~DGItems/readme/DGItems_%LANGUAGE%.txt~
 
-ALWAYS
-	INCLUDE ~DGItems/lib/always.tph~
-END	// of ALWAYS block
+ALWAYS	
+
+			//Copies tra files into the autotra-folder (to leave the originals untouched)
+    DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
+      COPY ~DGItems/lang/French~  ~DGItems/lang/autotra/%LANGUAGE%~
+      COPY ~DGItems/lang/%LANGUAGE%~  ~DGItems/lang/autotra/%LANGUAGE%~
+    END
+
+    LAF autotra_workaround END
 
 
-AUTO_TRA	~DGItems/lang/%s~
+//  ACTION_DEFINE_ARRAY fl#noconvert BEGIN END
+
+ ACTION_DEFINE_ARRAY fl#reload BEGIN dialog setup END
+
+    LAF HANDLE_CHARSETS
+      INT_VAR
+        infer_charsets = 1
+      STR_VAR
+        tra_path = EVAL ~DGItems/lang/autotra~
+//        noconvert_array = fl#noconvert
+        reload_array = fl#reload
+	END
+
+//
+INCLUDE ~DGItems/lib/gw_functions.tpa~
+
+END
 
 
-LANGUAGE 	~English~
-         		~english~
-         		~DGItems/lang/english/dialog.tra~
-		~DGItems/lang/english/setup.tra~
-LANGUAGE	~Francais (par Prof Errata)~ 
-		~french~
-		~DGItems/lang/French/dialog.tra~
-		~DGItems/lang/French/setup.tra~
+AUTO_TRA ~DGItems/lang/autotra/%s~
+
+
+LANGUAGE ~English~
+		 ~English~
+		 ~DGItems/lang/english/dialog.tra~
+		 ~DGItems/lang/english/setup.tra~
+		 
+LANGUAGE ~Francais (par Prof Errata)~ 
+		 ~French~
+		 ~DGItems/lang/French/dialog.tra~
+		 ~DGItems/lang/French/setup.tra~
 
 /* ========================== *
  *   DGItems : Main component            *
@@ -33,14 +59,7 @@ LANGUAGE	~Francais (par Prof Errata)~
 	
 BEGIN @0
 DESIGNATED 0 LABEL ~DGItems_main~
-REQUIRE_PREDICATE GAME_IS ~bg2ee~ @1  // ~This mod requires BG2EE to be installed.~
+REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @1  // ~This mod requires BG2EE to be installed.~
 
 	INCLUDE ~DGItems/lib/main_component.tpa~
 
-
-/*==== DGItems Store ====*/
-
-
-ACTION_IF GAME_IS ~BG2EE~ THEN BEGIN
-	INCLUDE ~DGItems/lib/gw_functions.tpa~
-END
