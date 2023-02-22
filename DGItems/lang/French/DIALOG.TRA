@@ -7,12 +7,12 @@
 @20	= ~Amulette de Vitesse d'incantation~
 @25	= ~Portée couramment par des lanceurs de sorts durant le Temps des Troubles, cette amulette diminue les temps d'incantation et augmente sensiblement la Résistance Magique. Les guerriers et les voleurs monoclassés ne peuvent pas en conséquence la porter.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacités spéciales :
- Bonus de Classe d'Armure : +1
- Vitesse d'incantation : -5
- Résistance Magique: +20%
+Capacités d'équipement : 
+- Classe d'armure : Bonus de 1
+- Temps d'incantation : -5
+- Résistance à la magie : +20 %
  +50% du total de Résistance à la magie
 Poids : 1
 
@@ -67,55 +67,79 @@ Inutilisable par :
 @70	= ~Bille acide~
 @75	= ~La bille acide est magiquement enchantée de façon à ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence à ronger la blessure, l'agrandissant et l'approfondissant sévèrement.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacités spéciales :
- Dégâts : 1D4 +3, +3 d'acide
-THAC0 : +3
-Type de dégâts : Projectile (Perforant)
-Poids : 0
-Lanceur : Fronde~
+Capacités de combat : 
+- Munition à usage illimité
+- Inflige 3 points de dégâts d'acide à la cible
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d4 +3
+Type de dégâts : Projectile
+Arme de jet : Fronde
+
+Poids : 0~
 
 
 @80	= ~Bille enflammée~
 @85	= ~La Bille enflammée est une une pierre magique qui brûle quand elle est lancée. L'effet est semblable à celui d'une bille recouverte d'huile et dont on met le feu.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacités spéciales :
- Dégâts : 1D4 +3, +3 de feu
-THAC0 : +3
-Type de dégâts : Projectile (Perforant) 
-Poids : 0
-Lanceur : Fronde~
+Capacités de combat : 
+- Munition à usage illimité
+- Inflige 3 points de dégâts de feu à la cible
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d4 +3
+Type de dégâts : Projectile
+Arme de jet : Fronde
+
+Poids : 0~
 
 
 @90	= ~Bille de glace~
 @95	= ~La Bille de glace est une pierre magique qui devient un projectile glacé quand elle est lancée. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brûlant et l'engourdissant jusqu'au tréfonds d'elle-même.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacités spéciales :
- Dégâts : 1D4 +3, +3 de glace
-THAC0 : +3
-Type de dégâts : Projectile (Perforant)
-Poids : 0
-Lanceur : Fronde~
+Capacités de combat : 
+- Munition à usage illimité
+- Inflige 3 points de dégâts de froid à la cible
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d4 +3
+Type de dégâts : Projectile
+Arme de jet : Fronde
+
+Poids : 0~
 
 
 @130	= ~Fléchette acide~
 @135	= ~La Fléchette acide est magiquement enchantée de façon à ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence à ronger la blessure, l'agrandissant et l'approfondissant sévèrement.
 
-PARAMÈTRES :
 
-Capacités spéciales :
- Dégâts : 1D3 +2, +2 d'acide
-THAC0 : +2
-Type de dégâts : Projectile (Perforant)
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Attaque par round : Passe à 3
+
+Capacités de combat : 
+- Revient dans la main du lanceur
+- Inflige 2 points de dégâts d'acide à la cible
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d3 +2
+Type de dégâts : Projectile
+Facteur de vitesse : 0
+Type de compétence : Fléchette
+Type : Arme à 1 main
+
 Poids : 0
-Facteur de Vitesse : 0 
-Type d'arme : à 1 main
-Type de Compétence : Fléchette
 
 Inutilisable par :
  Clerc
@@ -126,16 +150,24 @@ Inutilisable par :
 @140	= ~Fléchette enflammée~
 @145	= ~La Fléchette enflammée est une une fléchette magique qui brûle quand elle est lancée. L'effet est semblable à celui d'une fléchette recouverte d'huile et dont on met le feu.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacités spéciales :
- Dégâts : 1D3 +2, +2 de feu
-THAC0 : +2
-Type de dégâts : Projectile (Perforant)
+Capacités d'équipement : 
+- Attaque par round : Passe à 3
+
+Capacités de combat : 
+- Revient dans la main du lanceur
+- Inflige 2 points de dégâts de feu à la cible
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d3 +2
+Type de dégâts : Projectile
+Facteur de vitesse : 0
+Type de compétence : Fléchette
+Type : Arme à 1 main
+
 Poids : 0
-Facteur de Vitesse : 0 
-Type d'arme : à 1 main
-Type de Compétence : Fléchette
 
 Inutilisable par :
  Clerc
@@ -146,16 +178,24 @@ Inutilisable par :
 @150	= ~Fléchette de glace~
 @155	= ~La Fléchette de glace est une fléchette magique qui devient un projectile glacé quand elle est lancée. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brûlant et l'engourdissant jusqu'au tréfonds d'elle-même.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacités spéciales :
- Dégâts : 1D3 +2, +2 de glace
-THAC0 : +2
-Type de dégâts : Projectile (Perforant)
+Capacités d'équipement : 
+- Attaque par round : Passe à 3
+
+Capacités de combat : 
+- Revient dans la main du lanceur
+- Inflige 2 points de dégâts de froid à la cible
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d3 +2
+Type de dégâts : Projectile
+Facteur de vitesse : 0
+Type de compétence : Fléchette
+Type : Arme à 1 main
+
 Poids : 0
-Facteur de Vitesse : 0 
-Type d'arme : à 1 main
-Type de Compétence : Fléchette
 
 Inutilisable par :
  Clerc
@@ -166,12 +206,16 @@ Inutilisable par :
 @160	= ~Cape d'adamantite élémentale~
 @165	= ~Couramment portée par la royauté et leurs gardes durant le Temps des Troubles, cette cape durable augmente les résistances de feu, de froid, d'acide et d'électricité de son porteur. De plus, un sort de Non-détection y a été placé dessus.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacités spéciales :
- Bonus de Classe d'armure : +5
- Résistances au feu, au froid, à l'acide, à l'électricité, et aux dégâts contondants, perforants, tranchants et de projectiles : +20%
- Lance Non-Détection au porteur
+Capacités d'équipement : 
+- Classe d'armure : +5
+- Non-détection
+- Résistance aux dégâts élémentaires : +20 %
+- Résistance aux dégâts physiques : +20 %
+- Résistance aux dégâts de feu magiques : +20 %
+- Résistance aux dégâts de froid magiques : +20 %
+
 Poids : 1
 
 Inutilisable par :
@@ -181,12 +225,26 @@ Inutilisable par :
 @170	= ~Heaume d'adamantite élémentale~
 @175	= ~Ce heaume d'adamantite fut forgé de la même manière que l'armure de plates. Couramment porté par la royauté et leurs gardes, ce heaume donne une protection contre les coups critiques, et évite aussi de devenir aveugle, sourd et muet. De plus, il protège le porteur contre toutes les formes de contrôles mentaux, immunise contre les sorts d'Horreur, et permet également de lancer des sorts sans incanter et de détecter les pièges.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacités spéciales :
- Bonus de Classe d'armure : +3
- Résistances au feu, au froid, à l'acide, à l'électricité, et aux dégâts contondants, perforants, tranchants et de projectiles : +20%
- Protège des sorts de Charme
+Capacités d'équipement : 
+- Protection contre les coups critiques
+- Classe d'armure : +3
+- Dissipation du silence
+- Immunité à l'horreur
+- Immunité à la confusion
+- Immunité aux charmes
+- Immunité à la surdité
+- Immunité à la cécité
+- Résistance aux dégâts physiques : +20 %
+- Résistance au feu : +20 %
+- Résistance au froid : +20 %
+- Résistance à l'électricité : +20 %
+- Résistance aux dégâts de feu magiques : +20 %
+- Résistance aux dégâts de froid magiques : +20 %
+- Détecte les pièges
+- 1 % de chance d'augmenter de 20 % la résistance à l'acide du porteur
+
 Poids : 10
 
 Inutilisable par :
@@ -200,15 +258,15 @@ Inutilisable par :
 @180	= ~Armure d'adamantite élémentale~
 @185	= ~Cette armure de plates complète légère fut couramment portée par la royauté et leurs gardes durant le Temps des Troubles. Forgée à partir d'adamantite exposée au feu, au froid, à l'acide et à la foudre des Plans Élémentaux, non seulement cette armure protège desdits éléments de +20 mais est aussi extrêmement durable et légère.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacités spéciales :
- Classe d'Armure : -1
- +2 contre les armes contondantes
- +2 contre les armes perforantes
- +2 contre les armes tranchantes
- Résistances au feu, au froid, à l'acide, à l'électricité, et aux dégâts contondants, perforants, tranchants et de projectiles : +20%
-Poids : 10
+Capacités d'équipement : 
+- Classe d'armure de base : -1
+- Classe d'armure : Bonus de 2 contre les armes contondantes, tranchantes et perforantes
+- Résistance aux dégâts élémentaires : +20 %
+- Résistance aux dégâts physiques : +20 %
+- Résistance aux dégâts de feu magiques : +20 %
+- Résistance aux dégâts de froid magiques : +20 %
 
 Inutilisable par :
  Archer & Traqueur
@@ -223,11 +281,16 @@ Inutilisable par :
 @190	= ~Écu d'adamantite élémentale~
 @195	= ~Couramment porté par la royauté et leurs gardes pendant le Temps des Troubles, cet écu durable augmente la résistance au feu, au froid, à l'acide et à l'électricité de son porteur.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacités spéciales :
- Bonus de Classe d'Armure : +5
- Résistances au feu, au froid, à l'acide, à l'électricité, et aux dégâts contondants, perforants, tranchants et de projectiles : +20%
+Capacités d'équipement : 
+- Classe d'armure : +5
+- Classe d'armure : Bonus de 2 contre les projectiles
+- Résistance aux dégâts élémentaires : +20 %
+- Résistance aux dégâts physiques : +20 %
+- Résistance aux dégâts de feu magiques : +20 %
+- Résistance aux dégâts de froid magiques : +20 %
+
 Poids : 3
 
 Inutilisable par :
@@ -241,16 +304,13 @@ Inutilisable par :
 @220	= ~Anneau d'harmonie de barde~
 @225	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un barde. Un seul anneau peut être porté à la fois.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacité d'équipement :
- Bonus de sorts :
- +1 Sort Niveau 1
- +1 Sort Niveau 2
- +1 Sort Niveau 3
- +2 Sorts Niveau 4
- +2 Sorts Niveau 5
- +2 Sorts Niveau 6
+Capacités d'équipement : 
+- Mémorisation de 2 sorts divins supplémentaires de niveau 4, 5 et 6
+- Mémorisation d'un sort divin supplémentaire de niveau 1, 2 et 3
+
+Poids : 0
 
 Utilisable seulement par :
  Barde~
@@ -259,13 +319,15 @@ Utilisable seulement par :
 @230	= ~Anneau de haute compétence cléricale~
 @235	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un clerc. Un seul anneau peut être porté à la fois.
 
-PARAMÈTRES :
 
-Capacité d'équipement :
- Bonus de sorts :
-+1 Sort Niveau 5
-+3 Sorts Niveau 6
-+7 Sorts Niveau 7
+PARAMÈTRES : 
+
+Capacités d'équipement :
+- Mémorisation de 7 sorts divins supplémentaires de niveau 7
+- Mémorisation de 3 sorts divins supplémentaires de niveau 6
+- Mémorisation d'un sort divin supplémentaire de niveau 5
+
+Poids : 0
 
 Utilisable seulement par :
  Clerc~
@@ -274,17 +336,16 @@ Utilisable seulement par :
 @240	= ~Anneau druidique de l'équilibre~
 @245	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un druide. Un seul anneau peut être porté à la fois.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacité d'équipement :
- Bonus de Sorts :
-+1 Sort Niveau 1
-+1 Sort Niveau 2
-+2 Sorts Niveau 3
-+2 Sorts Niveau 4
-+3 Sorts Niveau 5
-+5 Sorts Niveau 6
-+9 Sorts Niveau 7
+Capacités d'équipement :
+- Mémorisation de 9 sorts divins supplémentaires de niveau 7
+- Mémorisation de 5 sorts divins supplémentaires de niveau 6
+- Mémorisation de 3 sorts divins supplémentaires de niveau 5
+- Mémorisation de 2 sorts divins supplémentaires de niveau 3 et 4
+- Mémorisation d'un sort divin supplémentaire de niveau 1 et 2
+
+Poids : 0
 
 Utilisable seulement par :
  Druide~
@@ -293,12 +354,17 @@ Utilisable seulement par :
 @250	= ~Anneau du Mauvais archimage~
 @255	= ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement mauvais.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacités d'équipement :
- Résistance magique : +10%
- Jets de sauvegarde : Bonus de +1
- Sorts : donne 3 sorts de niveau 1 de plus, 3 sorts de niveau 2 de plus, 3 sorts de niveau 3 de plus, 3 sorts de niveau 4 de plus, 3 sorts de niveau 5 de plus, 2 sorts de niveau 6 de plus, 3 sorts de niveau 7 de plus, 3 sorts de niveau 8 de plus, et 4 sorts de niveau 9 de plus
+Capacités d'équipement : 
+- Unique : Un seul exemplaire peut être équipé
+- Mémorisation de 4 sorts profanes supplémentaires de niveau 9
+- Mémorisation de 2 sorts profanes supplémentaires de niveau 6
+- Mémorisation de 3 sorts profanes supplémentaires de niveau 1, 2, 3, 4, 5, 7 et 8
+- Jets de sauvegarde : +1
+- Résistance à la magie : +10 %
+
+Poids : 0
 
 Utilisable seulement par : 
  Mauvais
@@ -320,12 +386,16 @@ Inutilisable par :
 @270	= ~Anneau du Bon archimage~
 @275	= ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement bon.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
 Capacités d'équipement :
- Résistance magique : +10%
- Jets de sauvegarde : Bonus de +1
- Sorts : donne 3 sorts de niveau 1 de plus, 3 sorts de niveau 2 de plus, 3 sorts de niveau 3 de plus, 3 sorts de niveau 4 de plus, 3 sorts de niveau 5 de plus, 2 sorts de niveau 6 de plus, 3 sorts de niveau 7 de plus, 3 sorts de niveau 8 de plus, et 4 sorts de niveau 9 de plus
+- Mémorisation de 4 sorts profanes supplémentaires de niveau 9
+- Mémorisation de 2 sorts profanes supplémentaires de niveau 6
+- Mémorisation de 3 sorts profanes supplémentaires de niveau 1, 2, 3, 4, 5, 7 et 8
+- Jets de sauvegarde : +1
+- Résistance à la magie : +10 %
+
+Poids : 0
 
 Utilisable seulement par : 
  Bon
@@ -335,12 +405,16 @@ Utilisable seulement par :
 @280	= ~Anneau de l'archimage Neutre~
 @285	= ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement neutre.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
 Capacités d'équipement :
- Résistance magique : +10%
- Jets de sauvegarde : Bonus de +1
- Sorts : donne 3 sorts de niveau 1 de plus, 3 sorts de niveau 2 de plus, 3 sorts de niveau 3 de plus, 3 sorts de niveau 4 de plus, 3 sorts de niveau 5 de plus, 2 sorts de niveau 6 de plus, 3 sorts de niveau 7 de plus, 3 sorts de niveau 8 de plus, et 4 sorts de niveau 9 de plus
+- Mémorisation de 4 sorts profanes supplémentaires de niveau 9
+- Mémorisation de 2 sorts profanes supplémentaires de niveau 6
+- Mémorisation de 3 sorts profanes supplémentaires de niveau 1, 2, 3, 4, 5, 7 et 8
+- Jets de sauvegarde : +1
+- Résistance à la magie : +10 %
+
+Poids : 0
 
 Utilisable seulement par :
  Neutre
@@ -394,18 +468,26 @@ Utilisable seulement par :
 @320	= ~Cimeterre d'Amnésie~
 @325	= ~Ces cimeterres furent créés par des forgerons talentueux à partir d'adamantite, et ensuite enchantés par de puissants mages afin qu'ils puissent causer aux lanceurs de sorts ennemis l'oubli d'un sort. Ce cimeterre fut couramment utilisé par les gardes de la royauté durant le Temps des Troubles. De plus, quand il est équipé, il donne à son porteur le niveau de Grande Maîtrise dans le type d'arme Cimeterre/Wakizashi/Ninja-To.
 
-PARAMÈTRES :
+PARAMÈTRES : 
 
-Capacité de combat :
- le lanceur de sorts visé perd un sort mémorisé
-THAC0 : +5
-Dégâts : 2D8+5
+Capacités d'équipement : 
+- Compétence martiale Cimeterre/Wakizashi/Ninjato : Passe à 5
+
+Capacités de combat : 
+- Supprime 1 sort profane de la mémoire de la cible
+
+Enchantement : +5
+TAC0 : +5
+Dégâts : 2d8 +5
 Type de dégâts : Tranchant
+Facteur de vitesse : 1
+Type de compétence : Cimeterre/Wakizashi/Ninjato
+Type : Arme à 1 main
+
 Poids : 1
-Facteur de Vitesse : 5
-Type de Compétence : Cimeterre/Wakizashi/Ninja-To
-Type: Arme à une main
-Requis : 5 en Force
+
+Nécessite : 
+- Force : 5
 
 Inutilisable par :
  Belluaire
