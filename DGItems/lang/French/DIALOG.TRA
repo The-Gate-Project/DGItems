@@ -1,11 +1,11 @@
-@9001 	= ~[Uu]tilisable\([ %tab%]+[Ss]eulement\|[ %tab%]+[Uu]niquement\)?[ %tab%]+[Pp]ar[ %tab%]*:~
+@9001    = ~[Uu]tilisable\([ %tab%]+[Ss]eulement\|[ %tab%]+[Uu]niquement\)?[ %tab%]+[Pp]ar[ %tab%]*:~
 @9002	 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
 
-@10	= ~Articles de Deidre~
+@10   = ~Articles de Deidre~
 
 
-@20	= ~Amulette de Vitesse d'incantation~
-@25	= ~Portée couramment par des lanceurs de sorts durant le Temps des Troubles, cette amulette diminue les temps d'incantation et augmente sensiblement la Résistance Magique. Les guerriers et les voleurs monoclassés ne peuvent pas en conséquence la porter.
+@20   = ~Amulette de Vitesse d'incantation~
+@25   = ~Portée couramment par des lanceurs de sorts durant le Temps des Troubles, cette amulette diminue les temps d'incantation et augmente sensiblement la Résistance Magique. Les guerriers et les voleurs monoclassés ne peuvent pas en conséquence la porter.
 
 PARAMÈTRES : 
 
@@ -22,12 +22,12 @@ Inutilisable par :
  Voleur~
 
 
-@30	= ~Sac de contenance~
-@35	= ~Comme d'autres sacs magiques, celui-ci ressemble à un sac de tissu classique, d'environ 60 cm sur 1,20 m. Ce sac sans fond ouvre sur un espace non dimensionnel, et l'intérieur est plus grand que l'extérieur. Le poids du sac reste inchangé, quels que soient les objets qui y sont déposés.~
+@30   = ~Sac de contenance~
+@35   = ~Comme d'autres sacs magiques, celui-ci ressemble à un sac de tissu classique, d'environ 60 cm sur 1,20 m. Ce sac sans fond ouvre sur un espace non dimensionnel, et l'intérieur est plus grand que l'extérieur. Le poids du sac reste inchangé, quels que soient les objets qui y sont déposés.~
 
 
-@40	= ~Ceinturon de Force de géant du feu~
-@45	= ~Cette ceinture donne à son porteur la Force d'un Géant du Feu.
+@40   = ~Ceinturon de Force de géant du feu~
+@45   = ~Cette ceinture donne à son porteur la Force d'un Géant du Feu.
 
 PARAMÈTRES :
 
@@ -38,8 +38,8 @@ Inutilisable par :
  Tueur de Magiciens~
 
 
-@50	= ~Bottes de mouvement~
-@55	= ~Ces bottes furent magistralement enchantées par un talentueux mage/assassin connu seulement sous le nom du Boucher en raison du fait que ses victimes furent toutes trouvées taillées en des dizaines de pièces. Après une tentative d'assassinat manquée dûe à la combinaison des sorts d'Immobilisation, de Labyrinthe et de Lenteur, il plaça des sorts d'Action Libre, de Liberté et de Hâte améliorée sur toutes ses bottes. Portées partout, elles le protégèrent jusqu'à que ses pieds furent arrachés, et le Boucher fut définitivement Emprisonné. Par la suite ses tueurs anonymes s'emparèrent de ses bottes.
+@50   = ~Bottes de mouvement~
+@55   = ~Ces bottes furent magistralement enchantées par un talentueux mage/assassin connu seulement sous le nom du Boucher en raison du fait que ses victimes furent toutes trouvées taillées en des dizaines de pièces. Après une tentative d'assassinat manquée dû à la combinaison des sorts d'Immobilisation, de Labyrinthe et de Lenteur, il plaça des sorts d'Action Libre, de Liberté et de Hâte améliorée sur toutes ses bottes. Portées partout, elles le protégèrent jusqu'à que ses pieds furent arrachés, et le Boucher fut définitivement Emprisonné. Par la suite ses tueurs anonymes s'emparèrent de ses bottes.
 
 PARAMÈTRES :
 
@@ -50,8 +50,8 @@ Inutilisable par :
  Tueur de Magiciens~
 
 
-@60	= ~Gants de régénération~
-@65	= ~Ces gants enchantés permettent à leur porteur de régénérer 1 Point de vie par seconde. Ces gants furent couramment portés par la royauté et leurs gardes durant le Temps des Troubles.
+@60   = ~Gants de régénération~
+@65   = ~Ces gants enchantés permettent à leur porteur de régénérer 1 Point de vie par seconde. Ces gants furent couramment portés par la royauté et leurs gardes durant le Temps des Troubles.
 
 PARAMÈTRES :
 
@@ -64,8 +64,8 @@ Inutilisable par :
  Tueur de Magiciens~
 
 
-@70	= ~Bille acide~
-@75	= ~La bille acide est magiquement enchantée de façon à ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence à ronger la blessure, l'agrandissant et l'approfondissant sévèrement.
+@70   = ~Bille acide~
+@75   = ~La bille acide est magiquement enchantée de façon à ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence à ronger la blessure, l'agrandissant et l'approfondissant sévèrement.
 
 PARAMÈTRES : 
 
@@ -82,8 +82,8 @@ Arme de jet : Fronde
 Poids : 0~
 
 
-@80	= ~Bille enflammée~
-@85	= ~La Bille enflammée est une une pierre magique qui brûle quand elle est lancée. L'effet est semblable à celui d'une bille recouverte d'huile et dont on met le feu.
+@80   = ~Bille enflammée~
+@85   = ~La Bille enflammée est une une pierre magique qui brûle quand elle est lancée. L'effet est semblable à celui d'une bille recouverte d'huile et dont on met le feu.
 
 PARAMÈTRES : 
 
@@ -100,8 +100,8 @@ Arme de jet : Fronde
 Poids : 0~
 
 
-@90	= ~Bille de glace~
-@95	= ~La Bille de glace est une pierre magique qui devient un projectile glacé quand elle est lancée. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brûlant et l'engourdissant jusqu'au tréfonds d'elle-même.
+@90   = ~Bille de glace~
+@95   = ~La Bille de glace est une pierre magique qui devient un projectile glacé quand elle est lancée. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brûlant et l'engourdissant jusqu'au tréfonds d'elle-même.
 
 PARAMÈTRES : 
 
@@ -118,8 +118,8 @@ Arme de jet : Fronde
 Poids : 0~
 
 
-@130	= ~Fléchette acide~
-@135	= ~La Fléchette acide est magiquement enchantée de façon à ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence à ronger la blessure, l'agrandissant et l'approfondissant sévèrement.
+@130   = ~Fléchette acide~
+@135   = ~La Fléchette acide est magiquement enchantée de façon à ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence à ronger la blessure, l'agrandissant et l'approfondissant sévèrement.
 
 
 PARAMÈTRES : 
@@ -147,8 +147,8 @@ Inutilisable par :
  Chevalier~
 
 
-@140	= ~Fléchette enflammée~
-@145	= ~La Fléchette enflammée est une une fléchette magique qui brûle quand elle est lancée. L'effet est semblable à celui d'une fléchette recouverte d'huile et dont on met le feu.
+@140   = ~Fléchette enflammée~
+@145   = ~La Fléchette enflammée est une une fléchette magique qui brûle quand elle est lancée. L'effet est semblable à celui d'une fléchette recouverte d'huile et dont on met le feu.
 
 PARAMÈTRES : 
 
@@ -175,8 +175,8 @@ Inutilisable par :
  Chevalier~
 
 
-@150	= ~Fléchette de glace~
-@155	= ~La Fléchette de glace est une fléchette magique qui devient un projectile glacé quand elle est lancée. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brûlant et l'engourdissant jusqu'au tréfonds d'elle-même.
+@150   = ~Fléchette de glace~
+@155   = ~La Fléchette de glace est une fléchette magique qui devient un projectile glacé quand elle est lancée. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brûlant et l'engourdissant jusqu'au tréfonds d'elle-même.
 
 PARAMÈTRES : 
 
@@ -203,8 +203,8 @@ Inutilisable par :
  Chevalier~
 
 
-@160	= ~Cape d'adamantite élémentale~
-@165	= ~Couramment portée par la royauté et leurs gardes durant le Temps des Troubles, cette cape durable augmente les résistances de feu, de froid, d'acide et d'électricité de son porteur. De plus, un sort de Non-détection y a été placé dessus.
+@160   = ~Cape d'adamantite élémentale~
+@165   = ~Couramment portée par la royauté et leurs gardes durant le Temps des Troubles, cette cape durable augmente les résistances de feu, de froid, d'acide et d'électricité de son porteur. De plus, un sort de Non-détection y a été placé dessus.
 
 PARAMÈTRES : 
 
@@ -222,8 +222,8 @@ Inutilisable par :
  Tueur de magiciens~
 
 
-@170	= ~Heaume d'adamantite élémentale~
-@175	= ~Ce heaume d'adamantite fut forgé de la même manière que l'armure de plates. Couramment porté par la royauté et leurs gardes, ce heaume donne une protection contre les coups critiques, et évite aussi de devenir aveugle, sourd et muet. De plus, il protège le porteur contre toutes les formes de contrôles mentaux, immunise contre les sorts d'Horreur, et permet également de lancer des sorts sans incanter et de détecter les pièges.
+@170   = ~Heaume d'adamantite élémentale~
+@175   = ~Ce heaume d'adamantite fut forgé de la même manière que l'armure de plates. Couramment porté par la royauté et leurs gardes, ce heaume donne une protection contre les coups critiques, et évite aussi de devenir aveugle, sourd et muet. De plus, il protège le porteur contre toutes les formes de contrôles mentaux, immunise contre les sorts d'Horreur, et permet également de lancer des sorts sans incanter et de détecter les pièges.
 
 PARAMÈTRES : 
 
@@ -255,8 +255,8 @@ Inutilisable par :
  Voleur~
 
 
-@180	= ~Armure d'adamantite élémentale~
-@185	= ~Cette armure de plates complète légère fut couramment portée par la royauté et leurs gardes durant le Temps des Troubles. Forgée à partir d'adamantite exposée au feu, au froid, à l'acide et à la foudre des Plans Élémentaux, non seulement cette armure protège desdits éléments de +20 mais est aussi extrêmement durable et légère.
+@180   = ~Armure d'adamantite élémentale~
+@185   = ~Cette armure de plates complète légère fut couramment portée par la royauté et leurs gardes durant le Temps des Troubles. Forgée à partir d'adamantite exposée au feu, au froid, à l'acide et à la foudre des Plans Élémentaux, non seulement cette armure protège desdits éléments de +20 mais est aussi extrêmement durable et légère.
 
 PARAMÈTRES : 
 
@@ -278,8 +278,8 @@ Inutilisable par :
  Voleur~
 
 
-@190	= ~Écu d'adamantite élémentale~
-@195	= ~Couramment porté par la royauté et leurs gardes pendant le Temps des Troubles, cet écu durable augmente la résistance au feu, au froid, à l'acide et à l'électricité de son porteur.
+@190   = ~Écu d'adamantite élémentale~
+@195   = ~Couramment porté par la royauté et leurs gardes pendant le Temps des Troubles, cet écu durable augmente la résistance au feu, au froid, à l'acide et à l'électricité de son porteur.
 
 PARAMÈTRES : 
 
@@ -301,8 +301,8 @@ Inutilisable par :
  Druide~
 
 
-@220	= ~Anneau d'harmonie de barde~
-@225	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un barde. Un seul anneau peut être porté à la fois.
+@220   = ~Anneau d'harmonie de barde~
+@225   = ~Cet anneau augmente la capacité de mémorisation de sorts d'un barde. Un seul anneau peut être porté à la fois.
 
 PARAMÈTRES : 
 
@@ -316,8 +316,8 @@ Utilisable seulement par :
  Barde~
 
 
-@230	= ~Anneau de haute compétence cléricale~
-@235	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un clerc. Un seul anneau peut être porté à la fois.
+@230   = ~Anneau de haute compétence cléricale~
+@235   = ~Cet anneau augmente la capacité de mémorisation de sorts d'un clerc. Un seul anneau peut être porté à la fois.
 
 
 PARAMÈTRES : 
@@ -333,8 +333,8 @@ Utilisable seulement par :
  Clerc~
 
 
-@240	= ~Anneau druidique de l'équilibre~
-@245	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un druide. Un seul anneau peut être porté à la fois.
+@240   = ~Anneau druidique de l'équilibre~
+@245   = ~Cet anneau augmente la capacité de mémorisation de sorts d'un druide. Un seul anneau peut être porté à la fois.
 
 PARAMÈTRES : 
 
@@ -351,13 +351,12 @@ Utilisable seulement par :
  Druide~
 
 
-@250	= ~Anneau du Mauvais archimage~
-@255	= ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement mauvais.
+@250   = ~Anneau du Mauvais Archimage~
+@255   = ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement mauvais.
 
 PARAMÈTRES : 
 
 Capacités d'équipement : 
-- Unique : Un seul exemplaire peut être équipé
 - Mémorisation de 4 sorts profanes supplémentaires de niveau 9
 - Mémorisation de 2 sorts profanes supplémentaires de niveau 6
 - Mémorisation de 3 sorts profanes supplémentaires de niveau 1, 2, 3, 4, 5, 7 et 8
@@ -371,8 +370,8 @@ Utilisable seulement par :
  Mage~
 
 
-@260	= ~Anneau d'anti-pétrification~
-@265	= ~Cet anneau protège son porteur de la pétrification.
+@260   = ~Anneau d'anti-pétrification~
+@265   = ~Cet anneau protège son porteur de la pétrification.
 
 PARAMÈTRES :
 
@@ -383,8 +382,8 @@ Inutilisable par :
  Tueur de Magiciens~
 
 
-@270	= ~Anneau du Bon archimage~
-@275	= ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement bon.
+@270   = ~Anneau du Bon archimage~
+@275   = ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement bon.
 
 PARAMÈTRES : 
 
@@ -402,8 +401,8 @@ Utilisable seulement par :
  Mage~
 
 
-@280	= ~Anneau de l'archimage Neutre~
-@285	= ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement neutre.
+@280   = ~Anneau de l'archimage Neutre~
+@285   = ~Ce puissant anneau magique permet à son porteur de mémoriser plus de sorts que la normale, et en même temps d'augmenter les jets de sauvegarde et la résistance à la magie. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement neutre.
 
 PARAMÈTRES : 
 
@@ -421,8 +420,8 @@ Utilisable seulement par :
  Mage~
 
 
-@290	= ~Anneau de sainteté de paladin~
-@295	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un paladin. Un seul anneau peut être porté à la fois.
+@290   = ~Anneau de sainteté de paladin~
+@295   = ~Cet anneau augmente la capacité de mémorisation de sorts d'un paladin. Un seul anneau peut être porté à la fois.
 
 PARAMÈTRES :
 
@@ -436,8 +435,8 @@ Utilisable seulement par :
  Paladin~
 
 
-@300	= ~Anneau de compétence de rôdeur~
-@305	= ~Cet anneau augmente la capacité de mémorisation de sorts d'un rôdeur. Un seul anneau peut être porté à la fois.
+@300   = ~Anneau de compétence de rôdeur~
+@305   = ~Cet anneau augmente la capacité de mémorisation de sorts d'un rôdeur. Un seul anneau peut être porté à la fois.
 
 PARAMÈTRES :
 
@@ -450,8 +449,8 @@ Utilisable seulement par :
  Rôdeur~
 
 
-@310	= ~Anneau de compétence de voleur~
-@315	= ~On en sait peu sur les origines de cet anneau enchanté. Cependant, n'importe quel voleur qui le met reçoit un bonus substantiel à ses compétences de Vol à la tire, de Détection des pièges, de Crochetage et de de Détection des illusions. Il ne peut être porté seulement que par des voleurs. Un seul anneau peut être porté à la fois.
+@310   = ~Anneau de compétence de voleur~
+@315   = ~On en sait peu sur les origines de cet anneau enchanté. Cependant, n'importe quel voleur qui le met reçoit un bonus substantiel à ses compétences de Vol à la tire, de Détection des pièges, de Crochetage et de de Détection des illusions. Il ne peut être porté seulement que par des voleurs. Un seul anneau peut être porté à la fois.
 
 PARAMÈTRES :
 
@@ -465,8 +464,8 @@ Utilisable seulement par :
  Voleur~
 
 
-@320	= ~Cimeterre d'Amnésie~
-@325	= ~Ces cimeterres furent créés par des forgerons talentueux à partir d'adamantite, et ensuite enchantés par de puissants mages afin qu'ils puissent causer aux lanceurs de sorts ennemis l'oubli d'un sort. Ce cimeterre fut couramment utilisé par les gardes de la royauté durant le Temps des Troubles. De plus, quand il est équipé, il donne à son porteur le niveau de Grande Maîtrise dans le type d'arme Cimeterre/Wakizashi/Ninja-To.
+@320   = ~Cimeterre d'Amnésie~
+@325   = ~Ces cimeterres furent créés par des forgerons talentueux à partir d'adamantite, et ensuite enchantés par de puissants mages afin qu'ils puissent causer aux lanceurs de sorts ennemis l'oubli d'un sort. Ce cimeterre fut couramment utilisé par les gardes de la royauté durant le Temps des Troubles. De plus, quand il est équipé, il donne à son porteur le niveau de Grande Maîtrise dans le type d'arme Cimeterre/Wakizashi/Ninja-To.
 
 PARAMÈTRES : 
 

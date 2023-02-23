@@ -1,11 +1,11 @@
 @9001 = ~\([Oo]nly[ %tab%]+\)?[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 @9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 
-@10	=~Deidre's Items~
+@10  =  ~Deidre's Items~
 
 
-@20	=~Amulet of Spell Casting Speed~
-@25	=~Commonly worn by spellcasters during the Time of Troubles, this amulet decreases Spell Casting Time and increase significantly Magic Resistance. As such single classed fighters as well as single classed thieves can't equip it.
+@20  =  ~Amulet of Spell Casting Speed~
+@25  =  ~Commonly worn by spellcasters during the Time of Troubles, this amulet decreases Spell Casting Time and increase significantly Magic Resistance. As such single classed fighters as well as single classed thieves can't equip it.
 
 STATISTICS:
 
@@ -22,23 +22,25 @@ Unusable by:
  Thief~
 
 
-@30	=~Bag of Holding~
-@35	=~As with other magical bags, this one appears to be a common cloth sack of about 2 feet by 4 feet size. The bag of holding opens into a nondimensional space, and its inside is larger than its outside dimensions. Regardless of what is put into this item, the bag always weighs a fixed amount~
+@30  =  ~Bag of Holding~
+@35  =  ~As with other magical bags, this one appears to be a common cloth sack of about 2 feet by 4 feet size. The bag of holding opens into a nondimensional space, and its inside is larger than its outside dimensions. Regardless of what is put into this item, the bag always weighs a fixed amount~
 
-@40	=~Girdle of Fire Giant Strength~
-@45	=~This Girdle Gives the wearer Fire Giant Strength.
+@40  =  ~Girdle of Fire Giant Strength~
+@45  =  ~This Girdle Gives the wearer Fire Giant Strength.
 
-STATISTICS:
+STATISTICS: 
 
-Special Ability:
- Strength: set to 25
+Equipped abilities: 
+- Strength: Set to 25
+
+Weight: 2
 
 Unusable by:
  Wizard Slayer~
 
 
-@50	=~Boots of Movement~
-@55	=~These boots were masterfully enchanted by a talented mage/assassin known only as the butcher due the fact that his victims were all found hacked into dozens of pieces. After a failed assassination attempt due to a combination of Hold Person, Maze, and Slow spells he wove a Free Action, a Freedom, and an Improved Haste spells into all of his boots. Worn everywhere his boots protected him until his feet were severed and the butcher was forever mazed. Afterwards his boots were seized by his nameless killers.
+@50  =  ~Boots of Movement~
+@55  =  ~These boots were masterfully enchanted by a talented mage/assassin known only as the butcher due the fact that his victims were all found hacked into dozens of pieces. After a failed assassination attempt due to a combination of Hold Person, Maze, and Slow spells he wove a Free Action, a Freedom, and an Improved Haste spells into all of his boots. Worn everywhere his boots protected him until his feet were severed and the butcher was forever imprisoned. Afterwards his boots were seized by his nameless killers.
 
 STATISTICS:
 
@@ -49,75 +51,99 @@ Unusable by:
  Wizard Slayer~
 
 
-@60	=~Gloves of Regeneration~
-@65	=~These enchanted gloves cause the wearer to regenerate 1 Hit Point per second. These gloves were commonly worn by royalty and their guards during the Time of Troubles.
+@60  =  ~Gloves of Regeneration~
+@65  =  ~These enchanted gloves cause the wearer to regenerate 1 Hit Point per second. These gloves were commonly worn by royalty and their guards during the Time of Troubles.
 
-STATISTICS:
+STATISTICS: 
 
-Special Abilities:
- Wearer regenerates 1 Hit Point per second
- Saving Throws: Bonus +2
+Equipped abilities: 
+- Saving Throws: +2
+- Regenerates 1 hit point per second
+
 Weight: 1
 
 Unusable by:
  Wizard Slayer~
 
 
-@70	=~Acid Bullet~
-@75	=~The Acid Bullet is magically enhanced so that when it strikes an emeny, it will not only pierce its flesh but also begin to eat at the wound, enlarging and deepening it's severity.
+@70  =  ~Acid Bullet~
+@75  =  ~The Acid Bullet is magically enhanced so that when it strikes an emeny, it will not only pierce its flesh but also begin to eat at the wound, enlarging and deepening it's severity.
 
-STATISTICS:
+STATISTICS: 
 
-Special Abilities:
- THAC0: +3
- Damage: 1D4 +3, +3 Acid Damage
-Damage Type: Missile (Piercing)
-Weight: 0
-Launcher: Sling~
+Combat abilities: 
+- Unlimited ammunition
+- Inflicts 3 acid damage to the target
 
+Enchantment: +3
+THAC0: +3
+Damage: 1d4 +3
+Damage Type: Missile
+Launcher: Sling
 
-@80	=~Flame Bullet~
-@85	=~The Flame Bullet is a magical stone that will burst into flames when thrown. The effect is similar to a bullet doused in oil and set on fire.
-
-STATISTICS:
-
-Special Abilities:
- THAC0: +3
- Damage: 1D4 +3, +3 Fire Damage
-Damage Type: Missile (Piercing)
-Weight: 0
-Launcher: Sling~
+Weight: 0~
 
 
-@90	=~Ice Bullet~
-@95	=~The Ice Bullet is a magical stone that will burst into a rolling ball of ice and cold when fired. When the dart strikes it's victim, a shock of cold will travel through its body, both burning and numbing to the very core.
+@80  =  ~Flame Bullet~
+@85  =  ~The Flame Bullet is a magical stone that will burst into flames when thrown. The effect is similar to a bullet doused in oil and set on fire.
 
-STATISTICS:
+STATISTICS: 
 
-Special Abilities:
- THAC0: +3
- Damage: 1D4 +3, +3 Ice Damage
-Damage Type: Missile (Piercing)
-Weight: 0
-Launcher: Sling~
+Combat abilities: 
+- Unlimited ammunition
+- Inflicts 3 fire damage to the target
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d4 +3
+Damage Type: Missile
+Launcher: Sling
+
+Weight: 0~
+
+
+@90  =  ~Ice Bullet~
+@95  =  ~The Ice Bullet is a magical stone that will burst into a rolling ball of ice and cold when fired. When the dart strikes it's victim, a shock of cold will travel through its body, both burning and numbing to the very core.
+
+STATISTICS: 
+
+Combat abilities: 
+- Unlimited ammunition
+- Inflicts 3 cold damage to the target
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d4 +3
+Damage Type: Missile
+Launcher: Sling
+
+Weight: 0~
 
 
 
 
 
-@130	=~Acid Dart~
-@135	=~The Acid Dart is magically enhanced so that when it strikes an enemy, it will not only pierce its flesh but also begin to eat at the wound, enlarging and deepening it's severity.
+@130  =  ~Acid Dart~
+@135  =  ~The Acid Dart is magically enhanced so that when it strikes an enemy, it will not only pierce its flesh but also begin to eat at the wound, enlarging and deepening it's severity.
 
-STATISTICS:
+STATISTICS: 
 
-Special Abilities:
- THAC0: +2
- Damage: 1D3 +2, +2 Acid Damage
-Damage Type: Missile (Piercing)
-Weight: 0
+Equipped abilities: 
+- Attack per round: Set to 3
+
+Combat abilities: 
+- Returns to the wielder's hand when thrown
+- Inflicts 2 acid damage to the target
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d3 +2
+Damage Type: Missile
 Speed Factor: 0
-Type: 1-Handed
 Proficiency Type: Dart
+Type: One-Handed
+
+Weight: 0
 
 Not Usable By:
  Cleric
@@ -125,39 +151,27 @@ Not Usable By:
  Cavalier~
 
 
-@140	=~Flame Dart~
-@145	=~The Flame Dart is a magical dart that will burst into flames when thrown. The effect is similar to a dart doused in oil and set on fire.
+@140  =  ~Flame Dart~
+@145  =  ~The Flame Dart is a magical dart that will burst into flames when thrown. The effect is similar to a dart doused in oil and set on fire.
 
-STATISTICS:
+STATISTICS: 
 
-Special Abilities:
- THAC0: +2
- Damage: 1D3 +2, +2 Fire Damage
-Damage Type: Missile (Piercing)
-Weight: 0
+Equipped abilities: 
+- Attack per round: Set to 3
+
+Combat abilities: 
+- Returns to the wielder's hand when thrown
+- Inflicts 2 fire damage to the target
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d3 +2
+Damage Type: Missile
 Speed Factor: 0
-Type: 1-Handed
 Proficiency Type: Dart
+Type: One-Handed
 
-Not Usable By:
- Cleric
- Kensai
- Cavalier~
-
-
-@150	=~Ice Dart~
-@155	=~The Ice Dart is a magical dart that will burst into a rolling ball of ice and cold when fired. When the dart strikes it's victim, a shock of cold will travel through its body, both burning and numbing to the very core.
-
-STATISTICS:
-
-Special Abilities:
- THAC0: +2
- Damage: 1D3 +2, +2 Ice Damage
-Damage Type: Missile (Piercing)
 Weight: 0
-Speed Factor: 0
-Type: 1-Handed
-Proficiency type: Dart
 
 Not Usable By:
  Cleric
@@ -165,30 +179,76 @@ Not Usable By:
  Cavalier~
 
 
-@160	=~Elemental Adamantite Cloak~
-@165	=~Commonly worn by royalty and their guards during the Time of Troubles. this durable cloak increases the wearers fire, cold, acid, electrical resistance. In addition A Non-Detection spell had been woven into this cloak.
+@150  =  ~Ice Dart~
+@155  =  ~The Ice Dart is a magical dart that will burst into a rolling ball of ice and cold when fired. When the dart strikes it's victim, a shock of cold will travel through its body, both burning and numbing to the very core.
 
-STATISTICS:
+STATISTICS: 
 
-Special Abilities:
- Armor Class: Bonus +5
- Resistances fire, cold, acid, electrical, crushing piercing, missile, and slashing resistances: +20%
- Casts Non-Detection on the wearer
+Equipped abilities: 
+- Attack per round: Set to 3
+
+Combat abilities: 
+- Returns to the wielder's hand when thrown
+- Inflicts 2 cold damage to the target
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d3 +2
+Damage Type: Missile
+Speed Factor: 0
+Proficiency Type: Dart
+Type: One-Handed
+
+Weight: 0
+
+Not Usable By:
+ Cleric
+ Kensai
+ Cavalier~
+
+
+@160  =  ~Elemental Adamantite Cloak~
+@165  =  ~Commonly worn by royalty and their guards during the Time of Troubles. this durable cloak increases the wearers fire, cold, acid, electrical resistance. In addition A Non-Detection spell had been woven into this cloak.
+
+STATISTICS: 
+
+Equipped abilities: 
+- Armor Class: 5 bonus
+- Non-detection
+- Elemental Damage Resistance: +20 %
+- Physical Damage Resistance: +20 %
+- Magical Fire Resistance: +20 %
+- Magical Cold Resistance: +20 %
+
 Weight: 1
 
 Unusable by:
  Wizard Slayer~
 
 
-@170	=~Elemental Adamantite Helmet~
-@175	=~This adamantite helmet was forged in the same manner as the plate mail.  Commonly worn by royalty and their Guards. This helmet provides Protection from critical hits. Prevents Blind, Deaf, and Silenced states. This helmet also protects the wearer from all form of mind control. Enables the wearer to cast spells without speaking, and find traps. The wearer is also immune to fear and horror spells.
+@170  =  ~Elemental Adamantite Helmet~
+@175  =  ~This adamantite helmet was forged in the same manner as the plate mail.  Commonly worn by royalty and their Guards. This helmet provides Protection from critical hits. Prevents Blind, Deaf, and Silenced states. This helmet also protects the wearer from all form of mind control. Enables the wearer to cast spells without speaking, and find traps. The wearer is also immune to fear and horror spells.
 
-STATISTICS:
+STATISTICS: 
 
-Special Abilities:
- Armor Class: Bonus +3
- Resistances fire, cold, acid, electrical, crushing piercing, missile, and slashing resistances: +20%
- Prevents charm spells
+Equipped abilities: 
+- Protection against critical hits
+- Armor Class: 3 bonus
+- Vocalize
+- Immunity to horror
+- Immunity to confusion
+- Immunity to charms
+- Immunity to deafness
+- Immunity to blindness
+- Physical Damage Resistance: +20 %
+- Fire Resistance: +20 %
+- Cold Resistance: +20 %
+- Electrical Resistance: +20 %
+- Magical Fire Resistance: +20 %
+- Magical Cold Resistance: +20 %
+- Find traps
+- 1 % chance to increase the Acid Resistance of the wearer by 20 %
+
 Weight: 10
 
 Unusable by:
@@ -199,17 +259,19 @@ Unusable by:
  Thief~
  
 
-@180	=~Elemental Adamantite Mail~
-@185	=~This light weight full plate Mail was commonly worn by royalty and their guards during the Time of Troubles. Forged from adamantite dipped fire, cold, acid, and lightning from the elemental planes, this armor not only provides +20% resistance to said elements but is extremely durable and light as well.
+@180  =  ~Elemental Adamantite Mail~
+@185  =  ~This light weight full plate Mail was commonly worn by royalty and their guards during the Time of Troubles. Forged from adamantite dipped fire, cold, acid, and lightning from the elemental planes, this armor not only provides +20% resistance to said elements but is extremely durable and light as well.
 
-STATISTICS:
+STATISTICS: 
 
-Special Abilities:
- Armor Class: -1
- +2 vs Blunt weapons
- +2 vs Piercing weapons
- +2 vs Slashing weapons
- Resistances fire, cold, acid, electrical, crushing piercing, missile, and slashing resistances: +20%
+Equipped abilities: 
+- Base Armor Class: -1
+- Armor Class: 2 bonus vs. crushing, slashing and piercing attacks
+- Elemental Damage Resistance: +20 %
+- Physical Damage Resistance: +20 %
+- Magical Fire Resistance: +20 %
+- Magical Cold Resistance: +20 %
+
 Weight: 10
 
 Unusable by:
@@ -222,14 +284,19 @@ Unusable by:
   Thief~
 
 
-@190	=~Elemental Adamantite Shield~
-@195	=~Commonly worn by royalty and thier guards during the time of troubles, this durable shield increases the wearers fire, cold, acid, electrical resistance.
+@190  =  ~Elemental Adamantite Shield~
+@195  =  ~Commonly worn by royalty and thier guards during the time of troubles, this durable shield increases the wearers fire, cold, acid, electrical resistance.
 
-STATISTICS:
+STATISTICS: 
 
-Special Abilities:
- Armor Class: Bonus +5
-Resistances fire, cold, acid, electrical, crushing piercing, missile, and slashing resistances: +20%
+Equipped abilities: 
+- Armor Class: 5 bonus
+- Armor Class: 2 bonus vs. missile attacks
+- Elemental Damage Resistance: +20 %
+- Physical Damage Resistance: +20 %
+- Magical Fire Resistance: +20 %
+- Magical Cold Resistance: +20 %
+
 Weight: 3
 
 Unusable by:
@@ -240,179 +307,191 @@ Unusable by:
  Druid~
 
 
+@220  =  ~Bard's Ring of Harmony~
+@225  =  ~This ring increases a Bard's Spell Memorization skills. Only one may be worn at a time.
 
+STATISTICS: 
 
+Equipped abilities: 
+- Can memorize 2 extra 4, 5 and 6 divine spells
+- Can memorize an extra 1, 2 and 3 divine spell
 
-
-
-
-@220	=~Bard's Ring of Harmony~
-@225	=~This ring increases a Bard's Spell Memorization skills. Only one may be worn at a time.
-
-STATISTICS:
-
-Equipment Ability:
- Bonus Spells:
- +1 Level 1 Spell
- +1 Level 2 Spell
- +1 Level 3 Spell
- +2 Level 4 Spells
- +2 Level 5 Spells
- +2 Level 6 Spells
+Weight: 0
 
 Only usable by:
  Bard~
 
 
-@230	=~Ring of High Clerical Skill~
-@235	=~This ring increases a cleric memorization capablity. Only one may be worn at a time.
+@230  =  ~Ring of High Clerical Skill~
+@235  =  ~This ring increases a cleric memorization capablity. Only one may be worn at a time.
 
-STATISTICS:
+STATISTICS: 
 
-Equipment Ability:
- Bonus Spells:
-+1 level 5 Priest spell
-+3 level 6 Priest spells
-+7 level 7 Priest spells
+Equipped abilities: 
+- Can memorize 7 extra 7 divine spells
+- Can memorize 3 extra 6 divine spells
+- Can memorize an extra 5 divine spell
+
+Weight: 0
 
 Only usable by:
  Cleric~
 
 
-@240	=~Druidic Ring of Balance~
-@245	=~This ring increases a druids spell memorization skills. Only one may be worn at a time.
+@240  =  ~Druidic Ring of Balance~
+@245  =  ~This ring increases a druids spell memorization skills. Only one may be worn at a time.
 
-STATISTICS:
+STATISTICS: 
 
-Equipment Ability:
- Bonus Spells:
- +1 Level 1 Spell
- +1 Level 2 Spell
- +2 Level 3 Spells
- +2 Level 4 Spells
- +3 Level 5 Spells
- +5 Level 6 Spells
- +9 Level 7 Spells
+Equipped abilities: 
+- Can memorize 9 extra 7 divine spells
+- Can memorize 5 extra 6 divine spells
+- Can memorize 3 extra 5 divine spells
+- Can memorize 2 extra 3 and 4 divine spells
+- Can memorize an extra 1 and 2 divine spell
+
+Weight: 0
 
 Only usable by:
  Druid~
 
 
-@250	=~Ring of the Evil Archmagi~
-@255	=~This powerful mage ring allows the wearer to memorize more spells than normally possible. While at the same time increasing one's saving throws and magical resistance. Due to the nature of it's enchantment it can only be worn by mages of Evil alignment.
+@250  =  ~Ring of the Evil Archmagi~
+@255  =  ~This powerful mage ring allows the wearer to memorize more spells than normally possible. While at the same time increasing one's saving throws and magical resistance. Due to the nature of it's enchantment it can only be worn by mages of Evil alignment.
 
-STATISTICS:
+STATISTICS: 
 
-Equipment Abilities:
- Magic Resistance: +10%
- Saving Throws: +1 Bonus
- Spells: Gives three extra level one spells, three extra level two spells, three extra level three spells, three extra level four spells, three extra level five spells, two extra level six spells, three extra level seven spells, three extra level eight spells, and  four extra level nine spells
+Equipped abilities: 
+- Memorize 4 extra level 9 wizard spells
+- Memorize 2 extra level 6 wizard spells
+- Memorize 3 extra level 1, 2, 3, 4, 5, 7 and 8 wizard spells
+- Saving Throws: +1
+- Magic Resistance: +10 %
+
+Weight: 0
 
 Only usable by: 
  Evil
  Mage~
 
 
-@260	=~Ring of Anti-Petrification~
-@265	=~This ring protects the wearer from Petrification.
+@260  =  ~Ring of Anti-Petrification~
+@265  =  ~This ring protects the wearer from Petrification.
 
-STATISTICS:
+STATISTICS: 
 
-Equipment Ability:
- Immunity to Petrification
+Equipped abilities: 
+- Immunity to Petrification
 
 Unusable by:
  Wizard Slayer~
 
-@270	=~Ring of the Good Archmagi~
-@275	=~This powerful mage ring allows the wearer to memorize more spells than normally possible. While at the same time increasing one's saving throws and magical resistance. Due to the nature of it's enchantment it can only be worn by mages of Good alignment.
+@270  =  ~Ring of the Good Archmagi~
+@275  =  ~This powerful mage ring allows the wearer to memorize more spells than normally possible. While at the same time increasing one's saving throws and magical resistance. Due to the nature of it's enchantment it can only be worn by mages of Good alignment.
 
-STATISTICS:
+STATISTICS: 
 
-Equipment Abilities:
-Magic Resistance: +10%
-Saving Throws: +1 Bonus
- Spells: Gives three extra level one spells, three extra level two spells, three extra level three spells, three extra level four spells, three extra level five spells, two extra level six spells, three extra level seven spells, three extra level eight spells, and  four extra level nine spells
+Equipped abilities: 
+- Memorize 4 extra level 9 wizard spells
+- Memorize 2 extra level 6 wizard spells
+- Memorize 3 extra level 1, 2, 3, 4, 5, 7 and 8 wizard spells
+- Saving Throws: +1
+- Magic Resistance: +10 %
+
+Weight: 0
 
 Only usable by:
  Good
  Mage~
 
 
-@280	=~Ring of the Neutral Archmagi~
-@285	=~This powerful mage ring allows the wearer to memorize more spells than normally possible. While at the same time increasing one's saving throws and magical resistance. Due to the nature of it's enchantment it can only be worn by mages of Neutral alignment.
+@280  =  ~Ring of the Neutral Archmagi~
+@285  =  ~This powerful mage ring allows the wearer to memorize more spells than normally possible. While at the same time increasing one's saving throws and magical resistance. Due to the nature of it's enchantment it can only be worn by mages of Neutral alignment.
 
-STATISTICS:
+STATISTICS: 
 
-Equipment Abilities:
- Magic Resistance: +10%
- Saving Throws: +1 Bonus
- Spells: Gives three extra level one spells, three extra level two spells, three extra level three spells, three extra level four spells, three extra level five spells, two extra level six spells, three extra level seven spells, three extra level eight spells, and  four extra level nine spells
+Equipped abilities: 
+- Memorize 4 extra level 9 wizard spells
+- Memorize 2 extra level 6 wizard spells
+- Memorize 3 extra level 1, 2, 3, 4, 5, 7 and 8 wizard spells
+- Saving Throws: +1
+- Magic Resistance: +10 %
+
+Weight: 0
 
 Only usable by:
  Neutral
  Mage~
 
 
-@290	=~Paladin's Ring of Holiness~
-@295	=~This ring increases a Paladin's spell memorization skills. Only one can be worn at a time.
+@290  =  ~Paladin's Ring of Holiness~
+@295  =  ~This ring increases a Paladin's spell memorization skills. Only one can be worn at a time.
 
-STATISTICS:
+STATISTICS: 
 
-Equipment Abilities:
- +3 level 1 priest spells
- +3 level 2 priest spells
- +3 level 3 priest spells
- +3 level 4 priest spells
+Equipped abilities: 
+- Can memorize 3 extra 1, 2, 3 and 4 divine spells
+
+Weight: 0
 
  Only usable by:
   Paladin~
 
 
-@300	=~Ranger's Ring of Clerical Skill~
-@305	=~This ring increases a Ranger's spell memorization skills. Only one can be worn at a time.
+@300  =  ~Ranger's Ring of Clerical Skill~
+@305  =  ~This ring increases a Ranger's spell memorization skills. Only one can be worn at a time.
 
-STATISTICS:
+STATISTICS: 
 
-Equipment Abilities:
- +3 level 1 priest spells
- +3 level 2 priest spells
- +3 level 3 priest spells
+Equipped abilities: 
+- Can memorize 3 extra 1, 2 and 3 divine spells
+
+Weight: 0
 
 Only usable by:
   Ranger~
 
 
-@310	=~Ring of Thieving skill~
-@315	=~Little is known about the origins of this enchanted ring. What is known however is that any thief who wears this ring receives a substantial bonus to their Pick pocketing, Trap Finding, Lock picking, and Illusion Detection skills. As such it can only be worn by thieves. Only one may be worn at a time.
+@310  =  ~Ring of Thieving skill~
+@315  =  ~Little is known about the origins of this enchanted ring. What is known however is that any thief who wears this ring receives a substantial bonus to their Pick pocketing, Trap Finding, Lock picking, and Illusion Detection skills. As such it can only be worn by thieves. Only one may be worn at a time.
 
-STATISTICS:
+STATISTICS: 
 
-Equipment Abilities:
- Pick pockets: +50%
- Open locks: +50%
- Find traps: +50%
- Detect illusions: +50%
+Equipped abilities: 
+- Pick Pockets: +50 %
+- Open Locks: +50 %
+- Detect Illusion: +50 %
+- Find Traps: +50 %
+
+Weight: 0
 
 Only usable by:
  Thief~
 
 
-@320	=~Scimitar of Amnesia~
-@325	=~These Scimitars were forged from adamantite by talented smiths. Then enchanted by powerful mages to enable it to cause enemy spellcasters to forget one spell.This Scimitar was commonly used by the guards of royaly during the time of troubles. When equipped the wearer is given the profiency level of grand high master with Scimitar/Wakizashi/Ninja-To type weapons.
+@320  =  ~Scimitar of Amnesia~
+@325  =  ~These Scimitars were forged from adamantite by talented smiths. Then enchanted by powerful mages to enable it to cause enemy spellcasters to forget one spell.This Scimitar was commonly used by the guards of royaly during the time of troubles. When equipped the wearer is given the profiency level of grand high master with Scimitar/Wakizashi/Ninja-To type weapons.
 
 STATISTICS:
 
-Item ability: 
- Targeted spellcaster loses one spell from memory
+Equipped abilities: 
+- Proficiency Scimitar/Wakizashi/Ninjato: Set to 5
+
+Combat abilities: 
+- Targeted spellcaster loses one spell from memory
+
+Enchantment: +5
 THAC0: +5
-Damage:2D8+5
+Damage: 2d8 +5
 Damage Type: Slashing
+Speed Factor: 1
+Proficiency Type: Scimitar/Wakizashi/Ninjato
+Type: One-Handed
+
 Weight: 1
-Speed Factor: 5
-Proficiency type: Scimitar/Wakizashi/Ninja-To
-Type: 1-handed
-Requires: 5 Strength
+
+Requires: 
+- Strength: 5
 
 Not Usable By:
  Beast Master
