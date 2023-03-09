@@ -3,7 +3,7 @@ CUSTOMIZED ITEMS COLLECTION MOD FOR BALDUR’S GATE 2 THRONE OF BHAAL, BALDUR'S
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Here is a mod which will give you in exchange for some pennies items, ammunition, weapons and armors in your BG2EE games, including a very effective armor set and a powerful scimitar very useful for fighters.
+Here is a mod which will give you in exchange for some pennies items, ammunition, weapons and armors in your BG2ToB and BG2EE games, including a very effective armor set and a powerful scimitar very useful for fighters.
 
 
 Installation:
@@ -26,11 +26,13 @@ Versions:
 - Customs Items: initial version regrouping the items created by D. Goodrich - 2002
 - SPItems:version integrating in addition to the items created by D. Goodrich the Creslyn ones, as well as the Davoran & Shadow Daemon spell packs - WeiDU 147 - 2004
 - SPItems_V11: version adding the Russian translation by Fess - WeiDU 218 - 2010
-- DG Items_V2: version containing only the overhauled and updated items created by Daniel Goodrich, with the addition of the French version by Prof Errata - WeiDU 246 - September 2019
+- DG Items_V2: version containing only the overhauled and updated items created by Daniel Goodrich, transferred from the Joluv's shop to the Deidre's one, with the addition of the French version by Prof Errata - WeiDU 246 - September 2019
 - DG Items_V3: version compatible with BG2EE 2.6.6.0 and in WeiDU 249 format - December 2022
 - DG Items_V4 : revised version - February 2023
 - DG Items_V5 : version for BG2EE only - February 2023
 - DG Items_V6 : revised BAMs for several items - February 2023
+- DG Items_V7 : revised scripts, several items with corrected graphics - February 2023
+- DG Items_V8 : some revised items with 2 other reinstated (Yoshimo's Katana +1 and Wand of the Heavens), revised presentation texts, BG2ToB version available again - March 2023
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

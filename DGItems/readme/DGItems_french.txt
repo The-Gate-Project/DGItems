@@ -3,7 +3,7 @@ PAR DANIEL GOODRICH - ADAPTÉ PAR PROF ERRATA
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Voici un mod qui vous fournira contre menue monnaie des objets, des munitions, des armes et des armures dans vos parties de BG2EE, dont entre autres un set d’armures des plus efficaces et un puissant cimeterre fort utile pour les combattants.
+Voici un mod qui vous fournira contre menue monnaie des objets, des munitions, des armes et des armures dans vos parties de BG2ToB et BG2EE, dont entre autres un set d’armures des plus efficaces et un puissant cimeterre fort utile pour les combattants.
 
 
 Installation :
@@ -26,11 +26,13 @@ Versions :
 - Custom Items : version initiale regroupant les objets créés par D. Goodrich - 2002
 - SPItems  : version intégrant outre les objets créés par D.Goodrich ceux de Creslyn, ainsi que les les packs de sorts de Davoran & Shadow Daemon - WeiDU 147 - 2004
 - SPItems_V11 : version rajoutant la traduction russe par Fess - WeiDU 218 - 2010
-- DG Items_V2 : version ne comprenant que les objets remaniés et actualisés créés par Daniel Goodrich, avec ajout de la version française par Prof Errata.- WeiDU 246 - Septembre 2019
+- DG Items_V2 : version ne comprenant que les objets remaniés et actualisés créés par Daniel Goodrich, transférés de l'échoppe De Joluv vers celle de Deidre, avec ajout de la version française par Prof Errata.- WeiDU 246 - Septembre 2019
 - DG Items_V3 : version compatible avec BG2EE 2.6.6.0 et sous format WeiDU 249 - Décembre 2022
 - DG Items_V4 : version remaniée - Février 2023
 - DG Items_V5 : version pour BG2EE seulement - Février 2023
 - DG Items_V6 : BAMs refaits pour plusieurs objets - Février 2023
+- DG Items_V7 : scripts revus, plusieurs objets aux graphismes corrigés - Février 2023
+- DG Items_V8 : quelques objets remaniés avec 2 autres réintégrés (Katana de Yoshimo +1 et Baguette des Cieux), textes de présentation revus, version pour BG2ToB disponible à nouveau - Mars 2023
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

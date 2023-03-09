@@ -458,3 +458,11 @@ COPY_EXISTING ~wmart2.sto~ ~override/wmart2.sto~  // adds all the items to Deidr
       STR_VAR item_name=~scimamne~ position=~LAST~ flags=~identified~
     END
 	
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~npsw02~ position=~LAST~ flags=~identified~
+    END
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~wand11~ position=~LAST~ flags=~identified~
+    END
+	
