@@ -159,6 +159,8 @@ END
 
 ACTION_IF GAME_IS ~tob~ BEGIN
 
+COPY ~DGItems/itemsOld/ELEMHELM.BAM~ ~override~
+COPY ~DGItems/itemsOld/ELEMSHLD.BAM~ ~override~
 
 COPY ~DGItems/itemsOld/AMULSSPD.ITM~  ~override~
   SAY NAME2 @20
