@@ -1,4 +1,4 @@
-CUSTOMIZED ITEMS COLLECTION MOD FOR BALDUR’S GATE 2 THRONE OF BHAAL, BALDUR'S GATE II ENHANCED EDITION AND ENHANCED EDITION TRILOGY -
+CUSTOMIZED ITEMS COLLECTION MOD FOR BALDUR’S GATE 2 THRONE OF BHAAL, BALDUR'S GATE TRILOGY, BALDUR'S GATE II ENHANCED EDITION AND ENHANCED EDITION TRILOGY -
  BY DANIEL GOODRICH - ADAPTED BY PROF ERRATA
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -7,7 +7,7 @@ Here is a mod which will give you in exchange for some pennies items, ammunition
 
 
 Installation:
-- BG2ToB, with the last Bioware official patch 26498, or the GOG version which integrates them already.
+- BG2ToB or BGT, with the last Bioware official patch 26498, or the GOG version which integrates them already.
 - BG2EE or EET
 
 Compatibility:

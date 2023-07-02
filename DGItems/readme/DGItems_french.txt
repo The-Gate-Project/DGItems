@@ -1,4 +1,4 @@
-MOD COLLECTION D’OBJETS PERSONNALISÉS POUR BALDUR’S GATE 2 THRONE OF BHAAL ET BALDUR'S GATE II ENHANCED EDITION ET ENHANCED EDITION TRILOGY -
+MOD COLLECTION D’OBJETS PERSONNALISÉS POUR BALDUR’S GATE 2 THRONE OF BHAAL, BALDUR'S GATE TRILOGIE, BALDUR'S GATE II ENHANCED EDITION AND ENHANCED EDITION TRILOGIE -
 PAR DANIEL GOODRICH - ADAPTÉ PAR PROF ERRATA
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -7,7 +7,7 @@ Voici un mod qui vous fournira contre menue monnaie des objets, des munitions, d
 
 
 Installation :
-- BG2ToB, avec le dernier patch officiel Bioware 26498, ou bien la version GOG qui l’intègre déjà.
+- BG2ToB ou BGT avec le dernier patch officiel Bioware 26498, ou bien la version GOG qui l’intègre déjà.
 - BG2EE ou EET
 
 Compatibilité :

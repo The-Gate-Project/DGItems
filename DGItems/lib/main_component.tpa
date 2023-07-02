@@ -10,7 +10,7 @@ SILENT
  *  Setting default variables  *
  * ------------------------------------ */
 
-ACTION_IF GAME_IS ~tob bg2ee eet~ BEGIN
+ACTION_IF GAME_IS ~tob bgt bg2ee eet~ BEGIN
 		OUTER_SPRINT pe_are "ar0702"
 		OUTER_SPRINT pe_sto "DGItems"
 END
@@ -157,7 +157,7 @@ COPY ~DGItems/items/SCIMAMNE.ITM~  ~override~
   
 END
 
-ACTION_IF GAME_IS ~tob~ BEGIN
+ACTION_IF GAME_IS ~tob bgt~ BEGIN
 
 COPY ~DGItems/itemsOld/ELEMHELM.BAM~ ~override~
 COPY ~DGItems/itemsOld/ELEMSHLD.BAM~ ~override~
