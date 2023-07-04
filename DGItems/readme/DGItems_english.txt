@@ -34,6 +34,15 @@ Versions:
 - DG Items_V7 : revised scripts, several items with corrected graphics - February 2023
 - DG Items_V8 : some revised items with 2 other reinstated (Yoshimo's Katana +1 and Wand of the Heavens), revised presentation texts, BG2ToB version available again - March 2023
 
+- v2.0  
+	- Code revision   
+	- Prefixes  
+	- Bam for vanilla  
+	- Only one bag of holding  
+	- Store price revision  
+	- Change for Balduran sword bam present in Dreidre store (use true icone)  
+	- EE ONLY : Change for Balduran shield bam present in Dreidre store (use different icone that Saving Grace)  
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Contact:

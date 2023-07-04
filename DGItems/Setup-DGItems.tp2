@@ -6,7 +6,8 @@
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 BACKUP	~DGItems/backup~
-AUTHOR	~archmage183@hotmail.com- Adapted and updated by Prof Errata~
+AUTHOR	~Daniel Goodrich archmage183@hotmail.com- Adapted and updated by Prof Errata~
+VERSION ~2.0~
 
 README ~DGItems/readme/DGItems_%LANGUAGE%.txt~
 

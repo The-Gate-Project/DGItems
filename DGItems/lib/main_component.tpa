@@ -5,244 +5,309 @@
  * ========================================================= */
 
 SILENT
+	
 
-/* ------------------------------------ *
- *  Setting default variables  *
- * ------------------------------------ */
-
-ACTION_IF GAME_IS ~tob bgt bg2ee eet~ BEGIN
-		OUTER_SPRINT pe_are "ar0702"
-		OUTER_SPRINT pe_sto "DGItems"
+/* ---------------------------------------------------- *
+ *  Copy BAMs or convert them to EE  *
+ * ---------------------------------------------------- */
+ 
+/*
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+	INCLUDE ~%MOD_FOLDER%/lib/gw_convert_inventory_bam_to_ee.tpa~			// Loads function converting inventory BAMs to EE.
+	OUTER_SPRINT file-exc ~ NAME of Bam in FOLDER to EXCLUDE~	// Special cases: unused inventory or description icons, and ability .bam don't need to be converted.
+	PRINT ~Convert BAMs to EE~
+	ACTION_BASH_FOR ~DGItems/bamToConvertEE/~ ~^.+\.bam$~ BEGIN
+		ACTION_TO_LOWER %BASH_FOR_FILE%
+		ACTION_TO_LOWER %BASH_FOR_RES%
+		ACTION_IF (~%file-exc%~ STRING_CONTAINS_REGEXP ~%BASH_FOR_RES%~ = 1) BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%BASH_FOR_FILE%~
+				LPF ~gw_convert_inventory_bam_to_ee~ END
+			BUT_ONLY
+		END ELSE BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%BASH_FOR_FILE%~
+		END
+	END
+END ELSE BEGIN  // If game not EE add Bam without change
+	COPY ~IRStore/bam~ ~override~
 END
-
+*/
 
 /* ------------------------- *
  *   Installing Items  *
  * ------------------------- */
+ 
+COPY_EXISTING ~wand11.itm~ ~override/PEwanDG.itm~
+  WRITE_LONG 0x34 10000 // Store price
 
 ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
 
 COPY ~DGItems/bam~ ~override~
 
-COPY ~DGItems/items/AMULSSPD.ITM~  ~override~
+COPY ~DGItems/items/PEAMUDG.ITM~  ~override~
   SAY NAME2 @20
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@25" END
+  WRITE_LONG 0x34 20850 // Store price
 
-COPY ~DGItems/store/PEBAG04.STO~  ~override~
+COPY ~DGItems/store/PEBAGDG.STO~  ~override~
 
-COPY ~DGItems/items/PEBAG04.ITM~  ~override~
+COPY ~DGItems/items/PEBAGDG.ITM~  ~override~
   SAY NAME2 @30
   SAY DESC @35
 
-COPY ~DGItems/items//BELTFG.ITM~  ~override~
+COPY ~DGItems/items/PEBELTDG.ITM~  ~override~
   SAY NAME2 @40
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@45" END
+  WRITE_LONG 0x34 21850 // Store price
 
-COPY ~DGItems/items/BOOTMOVE.ITM~  ~override~
+COPY ~DGItems/items/PEBO2DG.ITM~  ~override~
   SAY NAME2 @50
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@55" END
+  WRITE_LONG 0x34 12000 // Store price
 
-COPY ~DGItems/items/BRACREGN.ITM~  ~override~
+COPY ~DGItems/items/PEBRA3DG.ITM~  ~override~
   SAY NAME2 @60
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@65" END
+  WRITE_LONG 0x34 10000 // Store price
 
-COPY ~DGItems/items/BULLACID.ITM~  ~override~
+COPY ~DGItems/items/PEBUL0DG.ITM~  ~override~
   SAY NAME2 @70
   SAY DESC @75
+  WRITE_LONG 0x34 4023 // Store price
 
-COPY ~DGItems/items/BULLFLAM.ITM~  ~override~       
+COPY ~DGItems/items/PEBUL1DG.ITM~  ~override~       
   SAY NAME2 @80
   SAY DESC @85
+  WRITE_LONG 0x34 4033 // Store price
 
-COPY ~DGItems/items/BULLICE.ITM~  ~override~        
+COPY ~DGItems/items/PEBUL2DG.ITM~  ~override~        
   SAY NAME2 @90
   SAY DESC @95
+  WRITE_LONG 0x34 4013 // Store price
 
-COPY ~DGItems/items/DARTACID.ITM~  ~override~       
+COPY ~DGItems/items/PEDAADG.ITM~  ~override~       
   SAY NAME2 @130
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@135" END
+  WRITE_LONG 0x34 3023 // Store price
 
-COPY ~DGItems/items/DARTFLAM.ITM~  ~override~       
+COPY ~DGItems/items/PEDAFDG.ITM~  ~override~       
   SAY NAME2 @140 
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@145" END
+  WRITE_LONG 0x34 3033 // Store price
 
-COPY ~DGItems/items/DARTICE.ITM~  ~override~        
+COPY ~DGItems/items/PEDAGDG.ITM~  ~override~        
   SAY NAME2 @150
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@155" END
+  WRITE_LONG 0x34 3013 // Store price
 
-COPY ~DGItems/items/ELEMCLCK.ITM~  ~override~       
+COPY ~DGItems/items/PECLCDG.ITM~  ~override~       
   SAY NAME2 @160 
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@165" END
+  WRITE_LONG 0x34 35000 // Store price
 
-COPY ~DGItems/items/ELEMHELM.ITM~  ~override~       
+COPY ~DGItems/items/PEHELDG.ITM~  ~override~       
   SAY NAME2 @170
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@175" END
+  WRITE_LONG 0x34 30000 // Store price
 
-COPY ~DGItems/items/ELEMPLAT.ITM~  ~override~       
+COPY ~DGItems/items/PEPLADG.ITM~  ~override~       
   SAY NAME2 @180
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@185" END
+  WRITE_LONG 0x34 40000 // Store price
 
-COPY ~DGItems/items/ELEMSHLD.ITM~  ~override~       
+COPY ~DGItems/items/PESHIDG.ITM~  ~override~       
   SAY NAME2 @190
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@195" END
+  WRITE_LONG 0x34 20000 // Store price
 
-COPY ~DGItems/items/RINGBARD.ITM~  ~override~       
+COPY ~DGItems/items/PERIBDG.ITM~  ~override~       
   SAY NAME2 @220
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@225" END
+  WRITE_LONG 0x34 12095 // Store price
 
-COPY ~DGItems/items/RINGCLRC.ITM~  ~override~       
+COPY ~DGItems/items/PERICDG.ITM~  ~override~       
   SAY NAME2 @230
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@235" END
+  WRITE_LONG 0x34 15095 // Store price
 
-COPY ~DGItems/items/RINGDRUI.ITM~  ~override~       
+COPY ~DGItems/items/PERIDDG.ITM~  ~override~       
   SAY NAME2 @240
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@245" END
+  WRITE_LONG 0x34 15095 // Store price
 
-COPY ~DGItems/items/RINGEA.ITM~  ~override~         
+COPY ~DGItems/items/PERIEDG.ITM~  ~override~         
   SAY NAME2 @250
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@255" END
+  WRITE_LONG 0x34 25095 // Store price
 
-COPY ~DGItems/items/RINGFL.ITM~  ~override~         
+COPY ~DGItems/items/PERIAPDG.ITM~  ~override~         
   SAY NAME2 @260
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@265" END
 
-COPY ~DGItems/items/RINGGA.ITM~  ~override~         
+COPY ~DGItems/items/PERIGDG.ITM~  ~override~         
   SAY NAME2 @270
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@275" END
+  WRITE_LONG 0x34 25095 // Store price
 
-COPY ~DGItems/items/RINGNA.ITM~  ~override~         
+COPY ~DGItems/items/PERINDG.ITM~  ~override~         
   SAY NAME2 @280
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@285" END
+  WRITE_LONG 0x34 25095 // Store price
 
-COPY ~DGItems/items/RINGPAL.ITM~  ~override~        
+COPY ~DGItems/items/PERIPDG.ITM~  ~override~        
   SAY NAME2 @290
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@295" END
+  WRITE_LONG 0x34 12095 // Store price
 
-COPY ~DGItems/items/RINGRANG.ITM~  ~override~       
+COPY ~DGItems/items/PERIRDG.ITM~  ~override~       
   SAY NAME2 @300
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@305" END
+  WRITE_LONG 0x34 12095 // Store price
 
-COPY ~DGItems/items/RINGTHF.ITM~  ~override~        
+COPY ~DGItems/items/PERITDG.ITM~  ~override~        
   SAY NAME2 @310
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@315" END
+  WRITE_LONG 0x34 15095 // Store price
 
-COPY ~DGItems/items/SCIMAMNE.ITM~  ~override~       
+COPY ~DGItems/items/PESCIMDG.ITM~  ~override~       
   SAY NAME2 @320
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@325" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@325" END  
+  WRITE_LONG 0x34 32040 // Store price
   
 END
 
 ACTION_IF GAME_IS ~tob bgt~ BEGIN
 
-COPY ~DGItems/itemsOld/ELEMHELM.BAM~ ~override~
-COPY ~DGItems/itemsOld/ELEMSHLD.BAM~ ~override~
-COPY ~DGItems/itemsOld/PEBAG04.BAM~ ~override~
+COPY ~DGItems/bamOld~ ~override~
 
-COPY ~DGItems/itemsOld/AMULSSPD.ITM~  ~override~
+COPY ~DGItems/itemsOld/PEAMUDG.ITM~  ~override~
   SAY NAME2 @20
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@25" END
+  WRITE_LONG 0x34 20850  // Store price
 
-COPY ~DGItems/store/PEBAG04.STO~  ~override~
+COPY ~DGItems/store/PEBAGDG.STO~  ~override~
 
-COPY ~DGItems/itemsOld/PEBAG04.ITM~  ~override~
+COPY ~DGItems/itemsOld/PEBAGDG.ITM~  ~override~
   SAY NAME2 @30
   SAY DESC @35
 
-COPY ~DGItems/itemsOld//BELTFG.ITM~  ~override~
+COPY ~DGItems/itemsOld//PEBELTDG.ITM~  ~override~
   SAY NAME2 @40
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@45" END
+  WRITE_LONG 0x34 21850 // Store price
 
-COPY ~DGItems/itemsOld/BOOTMOVE.ITM~  ~override~
+COPY ~DGItems/itemsOld/PEBO2DG.ITM~  ~override~
   SAY NAME2 @50
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@55" END
+  WRITE_LONG 0x34 12000 // Store price
 
-COPY ~DGItems/itemsOld/BRACREGN.ITM~  ~override~
+COPY ~DGItems/itemsOld/PEBRA3DG.ITM~  ~override~
   SAY NAME2 @60
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@65" END
+  WRITE_LONG 0x34 10000 // Store price
 
-COPY ~DGItems/itemsOld/BULLACID.ITM~  ~override~
+COPY ~DGItems/itemsOld/PEBUL0DG.ITM~  ~override~
   SAY NAME2 @70
   SAY DESC @75
+  WRITE_LONG 0x34 4023 // Store price
 
-COPY ~DGItems/itemsOld/BULLFLAM.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PEBUL1DG.ITM~  ~override~       
   SAY NAME2 @80
   SAY DESC @85
+  WRITE_LONG 0x34 4033 // Store price
 
-COPY ~DGItems/itemsOld/BULLICE.ITM~  ~override~        
+COPY ~DGItems/itemsOld/PEBUL2DG.ITM~  ~override~        
   SAY NAME2 @90
   SAY DESC @95
+  WRITE_LONG 0x34 4013 // Store price
 
-COPY ~DGItems/itemsOld/DARTACID.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PEDAADG.ITM~  ~override~       
   SAY NAME2 @130
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@135" END
+  WRITE_LONG 0x34 3023 // Store price
 
-COPY ~DGItems/itemsOld/DARTFLAM.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PEDAFDG.ITM~  ~override~       
   SAY NAME2 @140 
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@145" END
+  WRITE_LONG 0x34 3043 // Store price
 
-COPY ~DGItems/itemsOld/DARTICE.ITM~  ~override~        
+COPY ~DGItems/itemsOld/PEDAGDG.ITM~  ~override~        
   SAY NAME2 @150
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@155" END
+  WRITE_LONG 0x34 3013 // Store price
 
-COPY ~DGItems/itemsOld/ELEMCLCK.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PECLCDG.ITM~  ~override~       
   SAY NAME2 @160 
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@165" END
+  WRITE_LONG 0x34 35000 // Store price
 
-COPY ~DGItems/itemsOld/ELEMHELM.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PEHELDG.ITM~  ~override~       
   SAY NAME2 @170
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@175" END
+  WRITE_LONG 0x34 30000 // Store price
 
-COPY ~DGItems/itemsOld/ELEMPLAT.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PEPLADG.ITM~  ~override~       
   SAY NAME2 @180
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@185" END
+  WRITE_LONG 0x34 40000 // Store price
 
-COPY ~DGItems/itemsOld/ELEMSHLD.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PESHIDG.ITM~  ~override~       
   SAY NAME2 @190
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@195" END
+  WRITE_LONG 0x34 20000 // Store price
 
-COPY ~DGItems/itemsOld/RINGBARD.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PERIBDG.ITM~  ~override~       
   SAY NAME2 @220
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@225" END
+  WRITE_LONG 0x34 12095 // Store price
 
-COPY ~DGItems/itemsOld/RINGCLRC.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PERICDG.ITM~  ~override~       
   SAY NAME2 @230
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@235" END
+  WRITE_LONG 0x34 15095 // Store price
 
-COPY ~DGItems/itemsOld/RINGDRUI.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PERIDDG.ITM~  ~override~       
   SAY NAME2 @240
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@245" END
+  WRITE_LONG 0x34 15095 // Store price
 
-COPY ~DGItems/itemsOld/RINGEA.ITM~  ~override~         
+COPY ~DGItems/itemsOld/PERIEDG.ITM~  ~override~         
   SAY NAME2 @250
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@255" END
+  WRITE_LONG 0x34 25095 // Store price
 
-COPY ~DGItems/itemsOld/RINGFL.ITM~  ~override~         
+COPY ~DGItems/itemsOld/PERIAPDG.ITM~  ~override~         
   SAY NAME2 @260
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@265" END
 
-COPY ~DGItems/itemsOld/RINGGA.ITM~  ~override~         
+COPY ~DGItems/itemsOld/PERIGDG.ITM~  ~override~         
   SAY NAME2 @270
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@275" END
+  WRITE_LONG 0x34 25095 // Store price
 
-COPY ~DGItems/itemsOld/RINGNA.ITM~  ~override~         
+COPY ~DGItems/itemsOld/PERINDG.ITM~  ~override~         
   SAY NAME2 @280
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@285" END
+  WRITE_LONG 0x34 25095 // Store price
 
-COPY ~DGItems/itemsOld/RINGPAL.ITM~  ~override~        
+COPY ~DGItems/itemsOld/PERIPDG.ITM~  ~override~        
   SAY NAME2 @290
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@295" END
+  WRITE_LONG 0x34 12095 // Store price
 
-COPY ~DGItems/itemsOld/RINGRANG.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PERIRDG.ITM~  ~override~       
   SAY NAME2 @300
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@305" END
+  WRITE_LONG 0x34 12095 // Store price
 
-COPY ~DGItems/itemsOld/RINGTHF.ITM~  ~override~        
+COPY ~DGItems/itemsOld/PERITDG.ITM~  ~override~        
   SAY NAME2 @310
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@315" END
+  WRITE_LONG 0x34 15095 // Store price
 
-COPY ~DGItems/itemsOld/SCIMAMNE.ITM~  ~override~       
+COPY ~DGItems/itemsOld/PESCIMDG.ITM~  ~override~       
   SAY NAME2 @320
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@325" END
+  WRITE_LONG 0x34 32040 // Store price
   
 END
 
@@ -251,156 +316,243 @@ END
  * ------------------------- */
 
 COPY_EXISTING ~wmart2.sto~ ~override/wmart2.sto~  // adds all the items to Deidre shop
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~WA2DAK~
+    END // Move WA2DAK.ITM ((Lame zerth de Dak'kon +2))
+	
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~WA2PLAT~
+    END // Move WA2PLAT.ITM (Armure de Baldurien)
+
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~WA2HELM~
+    END // Move WA2HELM.ITM (Heaume de Vhailor)
 
 	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~PEBAG04~ position=~LAST~ flags=~identified~
-    END
+      STR_VAR item_name=~WA2DAK~ position=~AFTER WA2HALB~ flags=~identified~
+    END // Move WA2DAK.ITM ((Lame zerth de Dak'kon +2))
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~WA2PLAT~ position=~AFTER WA2S1H~ flags=~identified~
+    END // Move WA2PLAT.ITM (Armure de Baldurien)
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~WA2HELM~ position=~AFTER WA2PLAT~ flags=~identified~
+    END // Move WA2HELM.ITM (Heaume de Vhailor)
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEBAGDG~ position=~LAST~ flags=~identified~
+    END // Sac de contenance
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~clck15~ position=~AFTER WA2ROBE~ flags=~identified~
+    END // Existing item
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~clck16~ position=~AFTER clck15~ flags=~identified~
+    END // Existing item
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~clck17~ position=~AFTER clck16~ flags=~identified~
+    END // Existing item
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERIGDG~ position=~AFTER clck15~ flags=~identified~
+    END // Anneau du Bon archimage
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERINDG~ position=~AFTER clck16~ flags=~identified~
+    END // Anneau de l'archimage Neutre
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERIEDG~ position=~AFTER clck17~ flags=~identified~
+    END // Anneau du Mauvais Archimage
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERIBDG~ position=~LAST~ flags=~identified~
+    END // Anneau d'harmonie de barde
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERICDG~ position=~LAST~ flags=~identified~
+    END // Anneau de haute compétence cléricale
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERIDDG~ position=~LAST~ flags=~identified~
+    END // Anneau druidique de l'équilibre
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERIPDG~ position=~LAST~ flags=~identified~
+    END // Anneau de sainteté de paladin
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERIRDG~ position=~LAST~ flags=~identified~
+    END // Anneau de compétence de rôdeur
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERIAPDG~ position=~AFTER WA2ROBE~ flags=~identified~
+    END // Anneau d'anti-pétrification
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERITDG~ position=~LAST~ flags=~identified~
+    END // Anneau de compétence de voleur
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~ring42~ position=~AFTER WA2RING~ flags=~identified~
+    END // Existing item
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEBUL0DG~ position=~LAST~ flags=~identified~
+    END // Bille acide
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEBUL1DG~ position=~LAST~ flags=~identified~
+    END // Bille enflammée
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEBUL2DG~ position=~LAST~ flags=~identified~
+    END // Bille de glace
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEDAADG~ position=~LAST~ flags=~identified~
+    END // Fléchette acide
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEDAFDG~ position=~LAST~ flags=~identified~
+    END // Fléchette enflammée
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEDAGDG~ position=~LAST~ flags=~identified~
+    END // Fléchette de glace
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEPLADG~ position=~LAST~ flags=~identified~
+    END // Armure d'adamantite élémentale
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEHELDG~ position=~LAST~ flags=~identified~
+    END // Heaume d'adamantite élémentale
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PESHIDG~ position=~LAST~ flags=~identified~
+    END // Écu d'adamantite élémentale
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PECLCDG~ position=~LAST~ flags=~identified~
+    END // Cape d'adamantite élémentale
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEAMUDG~ position=~AFTER WA2AMU~ flags=~identified~
+    END // Amulette de Vitesse d'incantation
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEBO2DG~ position=~LAST~ flags=~identified~
+    END // Bottes de mouvement
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEBRA3DG~ position=~LAST~ flags=~identified~
+    END // Gants de régénération
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEBELTDG~ position=~LAST~ flags=~identified~
+    END // Ceinturon de Force de géant du feu
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PESCIMDG~ position=~BEFORE PEPLADG~ flags=~identified~
+    END // Cimeterre d'Amnésie
+	
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~npsw02~ position=~AFTER WA2DAK~ flags=~identified~
+    END // Existing item
+
+	LPF ADD_STORE_ITEM_EX
+	INT_VAR charge1=100 stack=2
+      STR_VAR item_name=~PEwanDG~ position=~AFTER WA2HARP~ flags=~identified~
+    END // Existing item
 
 	LPF ADD_STORE_ITEM_EX
       STR_VAR item_name=~book03~ position=~LAST~ flags=~identified~
-    END
+    END // Existing item
 
 	LPF ADD_STORE_ITEM_EX
       STR_VAR item_name=~book04~ position=~LAST~ flags=~identified~
-    END
+    END // Existing item
 
 	LPF ADD_STORE_ITEM_EX
       STR_VAR item_name=~book05~ position=~LAST~ flags=~identified~
-    END
+    END // Existing item
 
 	LPF ADD_STORE_ITEM_EX
       STR_VAR item_name=~book06~ position=~LAST~ flags=~identified~
-    END
+    END // Existing item
 
 	LPF ADD_STORE_ITEM_EX
       STR_VAR item_name=~book07~ position=~LAST~ flags=~identified~
-    END
+    END // Existing item
 
 	LPF ADD_STORE_ITEM_EX
       STR_VAR item_name=~book08~ position=~LAST~ flags=~identified~
-    END
+    END // Existing item
+	
+	
+// replace Bam that is actually the same as Blade of Roses +3 and Saving Grace +3
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+COPY_EXISTING ~WA2S1H.itm~ ~override/WA2S1H.itm~
+  WRITE_ASCII 0x3a ~isw1hbs~  // Bam for épée de Baldurien 
+COPY_EXISTING ~WA2SHIEL.itm~ ~override/WA2SHIEL.itm~
+  WRITE_ASCII 0x3a ~ishldm04~  // Bam for bouclier de Baldurien 
+ 
+// replace Bam that is actually the same as Blade of Roses +3, no alternative for the shield...
+END ELSE ACTION_IF GAME_IS ~bg2 bgt~ BEGIN
+COPY_EXISTING ~WA2S1H.itm~ ~override/WA2S1H.itm~
+  WRITE_ASCII 0x3a ~isw1hbal~  // Bam for épée de Baldurien 
+  END
+	
+	
+/*	
 
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~clck15~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~clck16~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~clck17~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~ringga~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~ringna~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~ringea~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~ringbard~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~ringclrc~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~ringdrui~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~ringpal~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~ringrang~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~ringfl~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~ringthf~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~ring42~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~bullacid~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~bullflam~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~bullice~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~dartacid~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~dartflam~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~dartice~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~elemplat~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~elemhelm~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~elemshld~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~elemclck~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~amulsspd~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~bootmove~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~bracregn~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~beltfg~ position=~LAST~ flags=~identified~
-    END
-
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~scimamne~ position=~LAST~ flags=~identified~
-    END
 	
 	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~npsw02~ position=~LAST~ flags=~identified~
+	  INT_VAR charge1=XX charge2=XX charge3=XX stack=XX
+      STR_VAR item_name=~wand11~ position=~LAST~ flags=~identified~ 
     END
+	
+	
+	INT_VAR
+	overwrite=1 Delete everything below can be used on an existing object for overlap is values (delete everything in INT_VAR and STR_VAR)
+	charge1=xx  Number of charge for item
+	charge2=xx 
+	charge3=xx 
+	unlimited=1 Infinite supply for item
+	stack=xx     Number in stock
+	
+	STR_VAR
+	position=~LAST~ or ~LAST Item_name~ or ~BEFORE Item_name~ 
+	flags=~identified~ or ~UNSTEALABLE~ or ~STOLEN~ or ~IDENTIFIED&STOLEN~ or ~IDENTIFIED&UNSTEALABLE~ 
 
-	LPF ADD_STORE_ITEM_EX
-      STR_VAR item_name=~wand11~ position=~LAST~ flags=~identified~
-    END
+Most can be used in INT_VAR(integer) and STR_VAR(string) here is the nuance :
+
+- INT_VAR c'est pour y insérer des valeurs "entières" qui sont des nombres sans décimales / to insert "integer" values, which are numbers without decimals
+- STR_VAR c'est pour les "chaînes de caractères", qui peuvent aussi contenir des nombres, mais l'inverse n'est pas vrai / is for "strings", which can also contain numbers, but the contrary is not valid. 
+
+*/	
+	
+/*
+WRITE_BYTE  (an 8-bit byte value) is written.
+WRITE_SHORT (a 16-bit short value) is written.
+WRITE_LONG (a 32-bit long word value) is written.
+WRITE_ASCII ( a " #requiredSize " or "  (requiredSize)	"  )
+
+
+
+
+WRITE_ASCII 0x3a ~xxxxx~  // change bam for item 
+WRITE_ASCII 0x58 ~xxxxx~   // description image
+
+
+
+WRITE_ASCII 0x30 for effect ??
+
+*/	
+	
+	
 	

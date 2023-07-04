@@ -34,6 +34,14 @@ Versions :
 - DG Items_V7 : scripts revus, plusieurs objets aux graphismes corrigés - Février 2023
 - DG Items_V8 : quelques objets remaniés avec 2 autres réintégrés (Katana de Yoshimo +1 et Baguette des Cieux), textes de présentation revus, version pour BG2ToB disponible à nouveau - Mars 2023
 
+- v2.0  
+	- Code revision   
+	- Prefixes  
+	- Bam for vanilla  
+	- Only one bag of holding  
+	- Store price revision  
+	- Change for Balduran sword bam present in Dreidre store (use true icone)  
+	- EE ONLY : Change for Balduran shield bam present in Dreidre store (use different icone that Saving Grace)  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Contact : 
