@@ -27,7 +27,7 @@ Inutilisable par :
 @35 = ~Comme d'autres sacs magiques, celui-ci ressemble à un sac de tissu classique, d'environ 60 cm sur 1,20 m. Ce sac sans fond ouvre sur un espace non dimensionnel, et l'intérieur est plus grand que l'extérieur. Le poids du sac reste inchangé, quels que soient les objets qui y sont déposés.~
 
 
-@40 = ~Ceinturon de Force de géant du feu~ // PEBELTdg
+@40 = ~Ceinturon de puissance de géant du feu~ // PEBELTdg
 @45 = ~Cette ceinture donne à son porteur la Force de l'un des plus puissants Géant du Feu.
 
 PARAMÈTRES :
@@ -65,7 +65,7 @@ Inutilisable par :
  Tueur de Magiciens~
 
 
-@70 = ~Bille acide~ // PEBUL0DG
+@70 = ~Bille acide de l'infini~ // PEBUL0DG
 @75 = ~La bille acide est magiquement enchantée de façon à ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence à ronger la blessure, l'agrandissant et l'approfondissant sévèrement.
 
 PARAMÈTRES : 
@@ -83,7 +83,7 @@ Arme de jet : Fronde
 Poids : 0~
 
 
-@80 = ~Bille enflammée~ // PEBUL1DG
+@80 = ~Bille enflammée de l'infini~ // PEBUL1DG
 @85 = ~La Bille enflammée est une une pierre magique qui brûle quand elle est lancée. L'effet est semblable à celui d'une bille recouverte d'huile et dont on met le feu.
 
 PARAMÈTRES : 
@@ -101,7 +101,7 @@ Arme de jet : Fronde
 Poids : 0~
 
 
-@90 = ~Bille de glace~ // PEBUL2DG
+@90 = ~Bille de glace de l'infini~ // PEBUL2DG
 @95 = ~La Bille de glace est une pierre magique qui devient un projectile glacé quand elle est lancée. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brûlant et l'engourdissant jusqu'au tréfonds d'elle-même.
 
 PARAMÈTRES : 
@@ -119,7 +119,7 @@ Arme de jet : Fronde
 Poids : 0~
 
 
-@130 = ~Fléchette acide~ // PEDAADG
+@130 = ~Fléchette de corrosion continue~ // PEDAADG
 @135 = ~La Fléchette acide est magiquement enchantée de façon à ce que quand elle touche un ennemi, non seulement elle transperce sa chair mais aussi commence à ronger la blessure, l'agrandissant et l'approfondissant sévèrement.
 
 
@@ -148,7 +148,7 @@ Inutilisable par :
  Chevalier~
 
 
-@140 = ~Fléchette enflammée~ // PEDAFDG
+@140 = ~Fléchette du retour de flamme~ // PEDAFDG
 @145 = ~La Fléchette enflammée est une une fléchette magique qui brûle quand elle est lancée. L'effet est semblable à celui d'une fléchette recouverte d'huile et dont on met le feu.
 
 PARAMÈTRES : 
@@ -176,7 +176,7 @@ Inutilisable par :
  Chevalier~
 
 
-@150 = ~Fléchette de glace~ // PEDAGDG
+@150 = ~Fléchette du retour de l'hiver~ // PEDAGDG
 @155 = ~La Fléchette de glace est une fléchette magique qui devient un projectile glacé quand elle est lancée. Quand elle frappe sa victime, un choc glacial lui traverse le corps, la brûlant et l'engourdissant jusqu'au tréfonds d'elle-même.
 
 PARAMÈTRES : 

@@ -59,8 +59,137 @@ LANGUAGE ~Francais (par Prof Errata)~
  * ========================== */
 	
 BEGIN @0
-DESIGNATED 0 LABEL ~DGItems_main~
+DESIGNATED 0 LABEL ~DGItems-Daniel-Goodrich~
 REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @1  // ~This mod requires BG2ToB / BGT or BG2EE / EET to be installed.~
 
 	INCLUDE ~DGItems/lib/main_component.tpa~
 
+
+
+BEGIN @1000 /* Delay some powerful items to ToB (Zodesak store at Amkethran) */
+DESIGNATED 1000 LABEL ~IRStore-Daniel-Goodrich-DelayItemVolcano~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~SETUP-VOLCANO.TP2~ ~0~) @1010 /* Delay some Items in ToB need the mod Improved Volcano! Pack */
+    PRINT ~             ~
+	PRINT ~The Improved Volcano! Pack is installed~
+    PRINT ~             ~
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~ZODESAK.sto~) BEGIN
+
+    PRINT ~             ~
+	PRINT ~Remove some item from Dreidre store~
+    PRINT ~             ~
+
+COPY_EXISTING ~wmart2.sto~ ~override~ // Dreidre store
+
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~PEAMUDG~
+    END // Remove PEAMUDG.ITM (Amulet of Spell Casting Speed)
+	
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~PEBELTDG~
+    END // Remove PEBELTDG.ITM (Girdle of Fire Giant Strength)
+	
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~PECLCDG~
+    END // Remove PECLCDG.ITM ( Elemental Adamantite Cloak)
+	
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~PESHIDG~
+    END // Remove PESHIDG.ITM (Elemental Adamantite Shield)
+	
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~PERICDG~
+    END // Remove PERICDG.ITM (Ring of High Clerical Skill)
+	
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~PERIDDG~
+    END // Remove PERIDDG.ITM (Druidic Ring of Balance)
+	
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~PERIEDG~
+    END // Remove PERIEDG.ITM (Ring of the Evil Archmagi)
+	
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~PERIGDG~
+    END // Remove PERIGDG.ITM (Ring of the Good Archmagi)
+	
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~PERINDG~
+    END // Remove PERINDG.ITM (Ring of the Neutral Archmagi)
+	
+	LPF REMOVE_STORE_ITEM_EX
+      STR_VAR item_name=~PESCIMDG~
+    END // Remove PESCIMDG.ITM (Scimitar of Amnesia)
+	
+	
+    PRINT ~             ~
+    PRINT ~Add these items to Zodesak store~
+    PRINT ~             ~
+
+COPY_EXISTING ~ZODESAK.STO~ ~override~   // Zodesak store
+
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEAMUDG~ position=~BEFORE BAVOLAR~ flags=~identified~
+    END // Replace PEAMUDG.ITM (Amulet of Spell Casting Speed)
+	
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PEBELTDG~ position=~BEFORE BAVOLAR~ flags=~identified~
+    END // Replace PEBELTDG.ITM (Girdle of Fire Giant Strength)
+	
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PECLCDG~ position=~AFTER BAVOL05~ flags=~identified~
+    END // Replace PECLCDG.ITM ( Elemental Adamantite Cloak)
+	
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PESHIDG~ position=~AFTER BAVOL05~ flags=~identified~
+    END // Replace PESHIDG.ITM (Elemental Adamantite Shield)
+	
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERICDG~ position=~AFTER BAVOL05~ flags=~identified~
+    END // Replace PERICDG.ITM (Ring of High Clerical Skill)
+	
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERIDDG~ position=~AFTER BAVOL05~ flags=~identified~
+    END // Replace PERIDDG.ITM (Druidic Ring of Balance)
+	
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERIGDG~ position=~BEFORE BAVOL01~ flags=~identified~
+    END // Replace PERIGDG.ITM (Ring of the Good Archmagi)
+	
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERINDG~ position=~BEFORE BAVOL01~ flags=~identified~
+    END // Replace PERINDG.ITM (Ring of the Neutral Archmagi)
+	
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PERIEDG~ position=~BEFORE BAVOL01~ flags=~identified~
+    END // Replace PERIEDG.ITM (Ring of the Evil Archmagi)
+	
+	LPF ADD_STORE_ITEM_EX
+      STR_VAR item_name=~PESCIMDG~ position=~AFTER BAVOLBA~ flags=~identified~
+    END // Replace PESCIMDG.ITM (Scimitar of Amnesia)
+	
+	PRINT ~             ~
+    PRINT ~Delayed items
+
+Amulet of Spell Casting Speed
+
+Girdle of Fire Giant Strength
+
+Elemental Adamantite Cloak
+
+Elemental Adamantite Shield
+
+Ring of High Clerical Skill
+
+Druidic Ring of Balance
+
+Ring of the Good Archmagi
+
+Ring of the Neutral Archmagi
+
+Ring of the Evil Archmagi
+
+Scimitar of Amnesia~
+    PRINT ~             ~
+	
+ END

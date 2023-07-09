@@ -1,7 +1,9 @@
 @0	= ~Mod DGItems pour BG2ToB / BGT ou BG2EE / EET~
 @1	= ~Ce mod necessite l'installation de BG2ToB / BGT ou BG2EE / EET~
 
+@1000	= ~Deplacer certains items surpuissant dans ToB (Dans le magasin de Zodesak a Amkethran)~
 
+@1010	= ~Deplacer certains items dans ToB necessite le mod Improved Volcano! Pack~
 
 /* =============== *
  *  WeiDU prompts  *

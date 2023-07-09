@@ -18,12 +18,19 @@ THE ITEMS ARE VERY POWERFUL AND UNBALANCED, SO YOU'VE BEEN WARNED!
 
 Here's a mod that, in exchange for a few gold coins, will give you items, ammunition, weapons and armor for your BG2ToB and BG2EE games, including a highly effective armor set and a powerful scimitar.  
 
+
+A second componant allow to delay some of them to ToB, only if The Improved Volcano! Pack is installed...
+
+The concerned items are Amulet of Spell Casting Speed, Girdle of Fire Giant Strength, Elemental Adamantite Cloak, Elemental Adamantite Shield, Ring of High Clerical Skill, Druidic Ring of Balance, Ring of the Good Archmagi, Ring of the Neutral Archmagi, Ring of the Evil Archmagi and Scimitar of Amnesia.
+
+They will be available at Amkethran in Zodesak store !
+
 ## FAQ :
 --------
 
 Where can we get these items?  
 
- - On the Waukeen Promenade, in the Adventurers' Mart, at Deidre's (AR0702).
+ - On the Waukeen Promenade, in the Adventurers' Mart, in Deidre store (AR0702).
 
 
 ## Install:
@@ -56,3 +63,6 @@ Follow the prompt
 	- Store price revision  
 	- Change for Balduran sword bam present in Dreidre store (use true icone)  
 	- EE ONLY : Change for Balduran shield bam present in Dreidre store (use different icone that Saving Grace)  
+	- New componant Delay some Items in ToB if the mod Improved Volcano! Pack is installed
+	- Add InfinityAutoPackager
+	- Add metadata and label for Project Infinity

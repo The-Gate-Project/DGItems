@@ -3,8 +3,13 @@ PAR DANIEL GOODRICH - ADAPTÉ PAR PROF ERRATA
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Voici un mod qui vous fournira contre menue monnaie des objets, des munitions, des armes et des armures dans vos parties de BG2ToB et BG2EE, dont entre autres un set d’armures des plus efficaces et un puissant cimeterre fort utile pour les combattants.
+- Voici un mod qui vous fournira contre menue monnaie des objets, des munitions, des armes et des armures dans vos parties de BG2ToB et BG2EE, dont entre autres un set d’armures des plus efficaces et un puissant cimeterre fort utile pour les combattants.
 
+- - Un second composant permet de différer certains de ces items dans ToB, seulement si The Improved Volcano! Pack est installé...
+
+Les objets concernés sont l'Amulette de vitesse d'incantation, le Ceinturon de puissance de géant du feu, la Cape d'adamantite élémentale, l'Écu d'adamantite élémentale, l'Anneau de haute compétence cléricale, l'Anneau d'équilibre druidique, l'Anneau du bon archimage, l'Anneau de l'archimage neutre, l'Anneau du Mauvais Archimage et le Cimeterre d'Amnésie.
+
+Ils seront disponibles à Amkethran dans la boutique de Zodesak !
 
 Installation :
 - BG2ToB ou BGT avec le dernier patch officiel Bioware 26498, ou bien la version GOG qui l’intègre déjà.
@@ -42,6 +47,10 @@ Versions :
 	- Store price revision  
 	- Change for Balduran sword bam present in Dreidre store (use true icone)  
 	- EE ONLY : Change for Balduran shield bam present in Dreidre store (use different icone that Saving Grace)  
+	- New componant Delay some Items in ToB if the mod Improved Volcano! Pack is installed
+	- Add InfinityAutoPackager
+	- Add metadata and label for Project Infinity
+	
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Contact : 

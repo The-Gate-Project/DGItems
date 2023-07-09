@@ -3,7 +3,13 @@ CUSTOMIZED ITEMS COLLECTION MOD FOR BALDUR’S GATE 2 THRONE OF BHAAL, BALDUR'S
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Here is a mod which will give you in exchange for some pennies items, ammunition, weapons and armors in your BG2ToB and BG2EE games, including a very effective armor set and a powerful scimitar very useful for fighters.
+- Here is a mod which will give you in exchange for some pennies items, ammunition, weapons and armors in your BG2ToB and BG2EE games, including a very effective armor set and a powerful scimitar very useful for fighters.
+
+- A second componant allow to delay some of them to ToB, only if The Improved Volcano! Pack is installed...
+
+The concerned items are Amulet of Spell Casting Speed, Girdle of Fire Giant Strength, Elemental Adamantite Cloak, Elemental Adamantite Shield, Ring of High Clerical Skill, Druidic Ring of Balance, Ring of the Good Archmagi, Ring of the Neutral Archmagi, Ring of the Evil Archmagi and Scimitar of Amnesia.
+
+They will be available at Amkethran in Zodesak store !
 
 
 Installation:
@@ -42,6 +48,9 @@ Versions:
 	- Store price revision  
 	- Change for Balduran sword bam present in Dreidre store (use true icone)  
 	- EE ONLY : Change for Balduran shield bam present in Dreidre store (use different icone that Saving Grace)  
+	- New componant Delay some Items in ToB if the mod Improved Volcano! Pack is installed
+	- Add InfinityAutoPackager
+	- Add metadata and label for Project Infinity
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
