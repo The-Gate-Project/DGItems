@@ -59,6 +59,7 @@ Follow the prompt
 	- Code revision   
 	- Prefixes  
 	- Bam for vanilla  
+	- Items corrections
 	- Only one bag of holding  
 	- Store price revision  
 	- Change for Balduran sword bam present in Dreidre store (use true icone)  
