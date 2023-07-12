@@ -56,6 +56,7 @@ COPY ~DGItems/items/PEBAGDG.ITM~  ~override~
 
 COPY ~DGItems/items/PEBELTDG.ITM~  ~override~ // Girdle of Fire Giant Strength / Ceinturon de puissance de géant du feu
   SAY NAME2 @40
+  SAY UNIDENTIFIED_DESC #6466
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@45" END
   WRITE_LONG 0x34 21850 // Store price
 
@@ -192,6 +193,7 @@ COPY ~DGItems/itemsOld/PEBAGDG.ITM~  ~override~
 
 COPY ~DGItems/itemsOld//PEBELTDG.ITM~  ~override~
   SAY NAME2 @40
+  SAY UNIDENTIFIED_DESC #6466
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@45" END
   WRITE_LONG 0x34 21850 // Store price
 
