@@ -59,7 +59,8 @@ LANGUAGE ~Francais (par Prof Errata)~
  * ========================== */
 	
 BEGIN @0
-DESIGNATED 0 LABEL ~DGItems-Daniel-Goodrich~
+DESIGNATED 0 
+LABEL ~DGItems-Daniel-Goodrich~
 REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @1  // ~This mod requires BG2ToB / BGT or BG2EE / EET to be installed.~
 
 	INCLUDE ~DGItems/lib/main_component.tpa~
@@ -67,8 +68,9 @@ REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @1  // ~This mod requires BG2ToB /
 
 
 BEGIN @1000 /* Delay some powerful items to ToB (Zodesak store at Amkethran) */
-DESIGNATED 1000 LABEL ~IRStore-Daniel-Goodrich-DelayItemVolcano~
-REQUIRE_PREDICATE (MOD_IS_INSTALLED ~SETUP-VOLCANO.TP2~ ~0~) @1010 /* Delay some Items in ToB need the mod Improved Volcano! Pack */
+DESIGNATED 1000 
+LABEL ~IRStore-Daniel-Goodrich-DelayItemVolcano~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~SETUP-VOLCANO.TP2~ ~0~ AND MOD_IS_INSTALLED ~SETUP-DGItems.TP2~ ~0~) @1010 /* Delay some Items in ToB need the mod Improved Volcano! Pack and DGItems main componant */
     PRINT ~             ~
 	PRINT ~The Improved Volcano! Pack is installed~
     PRINT ~             ~

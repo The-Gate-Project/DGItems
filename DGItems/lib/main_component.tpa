@@ -49,6 +49,7 @@ COPY ~DGItems/items/PEAMUDG.ITM~  ~override~ // Amulet of Spell Casting Speed
   WRITE_LONG 0x34 20850 // Store price
 
 COPY ~DGItems/store/PEBAGDG.STO~  ~override~
+SAY STORE_NAME @31  // Name display inside container / shop
 
 COPY ~DGItems/items/PEBAGDG.ITM~  ~override~
   SAY NAME2 @30
@@ -74,16 +75,25 @@ COPY ~DGItems/items/PEBUL0DG.ITM~  ~override~ // Acid Bullet / Bille acide
   SAY NAME2 @70
   SAY DESC @75
   WRITE_LONG 0x34 4023 // Store price
+  WRITE_ASCII 0x76 ~PEBUL0DG~ (8)    // Write bam to item (second offset Bam for use (displayed in action bar)) 
+    OUTER_SET ability1strref = RESOLVE_STR_REF (@70)
+    APPEND ~tooltip.2da~ ~PEIRDAGG    %ability1strref%~
 
 COPY ~DGItems/items/PEBUL1DG.ITM~  ~override~ // Flame Bullet / Bille enflammée        
   SAY NAME2 @80
   SAY DESC @85
   WRITE_LONG 0x34 4033 // Store price
+  WRITE_ASCII 0x76 ~PEBUL1DG~ (8)    // Write bam to item (second offset Bam for use (displayed in action bar)) 
+    OUTER_SET ability1strref = RESOLVE_STR_REF (@80)
+    APPEND ~tooltip.2da~ ~PEIRDAGG    %ability1strref%~
 
 COPY ~DGItems/items/PEBUL2DG.ITM~  ~override~ // Ice Bullet / Bille de glace 
   SAY NAME2 @90
   SAY DESC @95
   WRITE_LONG 0x34 4013 // Store price
+  WRITE_ASCII 0x76 ~PEBUL2DG~ (8)    // Write bam to item (second offset Bam for use (displayed in action bar)) 
+    OUTER_SET ability1strref = RESOLVE_STR_REF (@90)
+    APPEND ~tooltip.2da~ ~PEIRDAGG    %ability1strref%~
 
 COPY ~DGItems/items/PEDAADG.ITM~  ~override~ // Acid Dart / Fléchette acide        
   SAY NAME2 @130
@@ -211,16 +221,22 @@ COPY ~DGItems/itemsOld/PEBUL0DG.ITM~  ~override~
   SAY NAME2 @70
   SAY DESC @75
   WRITE_LONG 0x34 4023 // Store price
+    OUTER_SET ability1strref = RESOLVE_STR_REF (@70)
+    APPEND ~tooltip.2da~ ~PEIRDAGG    %ability1strref%~
 
 COPY ~DGItems/itemsOld/PEBUL1DG.ITM~  ~override~       
   SAY NAME2 @80
   SAY DESC @85
   WRITE_LONG 0x34 4033 // Store price
+    OUTER_SET ability1strref = RESOLVE_STR_REF (@80)
+    APPEND ~tooltip.2da~ ~PEIRDAGG    %ability1strref%~
 
 COPY ~DGItems/itemsOld/PEBUL2DG.ITM~  ~override~        
   SAY NAME2 @90
   SAY DESC @95
   WRITE_LONG 0x34 4013 // Store price
+    OUTER_SET ability1strref = RESOLVE_STR_REF (@90)
+    APPEND ~tooltip.2da~ ~PEIRDAGG    %ability1strref%~
 
 COPY ~DGItems/itemsOld/PEDAADG.ITM~  ~override~       
   SAY NAME2 @130

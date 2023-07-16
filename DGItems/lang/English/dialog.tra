@@ -24,6 +24,7 @@ Unusable by:
 
 
 @30 = ~Bag of Holding~
+@31 = ~<CHARNAME>'s Bag of Holding~
 @35 = ~As with other magical bags, this one appears to be a common cloth sack of about 2 feet by 4 feet size. The bag of holding opens into a nondimensional space, and its inside is larger than its outside dimensions. Regardless of what is put into this item, the bag always weighs a fixed amount~
 
 @40 = ~Girdle of Fire Giant Strength~
@@ -245,7 +246,7 @@ Equipped abilities:
 - Physical Damage Resistance: +20 %
 - Magical Fire Resistance: +20 %
 - Magical Cold Resistance: +20 %
-- Détecte les pièges
+- Detecting Traps
 
 Weight: 10
 
@@ -263,12 +264,12 @@ Unusable by:
 STATISTICS: 
 
 Equipped abilities: 
-- Base Armor Class: -1
-- Armor Class: 2 bonus vs. crushing, slashing and piercing attacks
 - Elemental Damage Resistance: +20 %
 - Physical Damage Resistance: +20 %
 - Magical Fire Resistance: +20 %
 - Magical Cold Resistance: +20 %
+
+Armor Class: -1 (-3 vs. crushing, slashing and piercing attacks)
 
 Weight: 10
 
@@ -288,8 +289,7 @@ Unusable by:
 STATISTICS: 
 
 Equipped abilities: 
-- Armor Class: 5 bonus
-- Armor Class: 2 bonus vs. missile attacks
+- Armor Class: +5, +7 vs. missile attacks
 - Elemental Damage Resistance: +20 %
 - Physical Damage Resistance: +20 %
 - Magical Fire Resistance: +20 %
